@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Research"
+title: "Research: ConvAI Lab @ UIUC"
 layout: textlay
-excerpt: "Allan Lab -- Research"
+excerpt: "Research: ConvAI Lab @ UIUC"
 sitemap: false
 permalink: /research/
 ---
