@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Team"
+title: "Team: ConvAI Lab @ UIUC"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "Team: ConvAI Lab @ UIUC"
 sitemap: false
 permalink: /team/
 ---

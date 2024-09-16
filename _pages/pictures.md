@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Pictures"
+title: "Pictures: ConvAI Lab @ UIUC"
 layout: piclay
-excerpt: "Allan Lab -- Pictures"
+excerpt: "Pictures: ConvAI Lab @ UIUC"
 permalink: /pictures/
 ---
 

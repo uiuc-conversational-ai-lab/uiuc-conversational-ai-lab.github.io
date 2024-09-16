@@ -1,7 +1,7 @@
 ---
-title: "ConvAI Lab @ UIUC - Home"
+title: "Home: ConvAI Lab @ UIUC"
 layout: homelay
-excerpt: "Conversational AI Lab @ UIUC"
+excerpt: "Home: ConvAI Lab @ UIUC"
 sitemap: false
 permalink: /
 ---

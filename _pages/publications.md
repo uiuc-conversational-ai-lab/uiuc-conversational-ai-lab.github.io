@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "Publications: ConvAI Lab @ UIUC"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Publications: ConvAI Lab @ UIUC"
 sitemap: false
 permalink: /publications/
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Vacancies"
+title: "Vacancies: ConvAI Lab @ UIUC"
 layout: textlay
-excerpt: "Openings"
+excerpt: "Vacancies: ConvAI Lab @ UIUC"
 sitemap: false
 permalink: /vacancies
 ---

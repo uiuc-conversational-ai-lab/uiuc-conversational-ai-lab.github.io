@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Instrumente"
+title: "Instrumente: ConvAI Lab @ UIUC"
 layout: textlay
-excerpt: "AOA"
+excerpt: "Instrumente: ConvAI Lab @ UIUC"
 sitemap: false
 permalink: /instrumente.html
 ---

@@ -1,7 +1,7 @@
 ---
-title: "News"
+title: "News: ConvAI Lab @ UIUC"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "News: ConvAI Lab @ UIUC"
 sitemap: false
 permalink: /allnews.html
 ---
