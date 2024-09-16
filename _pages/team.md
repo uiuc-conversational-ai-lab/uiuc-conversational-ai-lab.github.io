@@ -3,7 +3,7 @@ title: "Team: ConvAI Lab @ UIUC"
 layout: gridlay
 excerpt: "Team: ConvAI Lab @ UIUC"
 sitemap: false
-permalink: /team/
+permalink: /team
 ---
 
 # Group Members
