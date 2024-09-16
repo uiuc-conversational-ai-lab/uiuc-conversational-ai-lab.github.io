@@ -8,8 +8,6 @@ permalink: /research/
 
 # Research
 
-Updating soon -- stay put. (Aug 11 2023)
-
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"}
+research.md file which is used, is in the main folder. edit content from there.
 
 
