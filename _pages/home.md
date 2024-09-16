@@ -1,5 +1,5 @@
 ---
-title: "ConvAI Lab - Home"
+title: "ConvAI Lab @ UIUC - Home"
 layout: homelay
 excerpt: "Conversational AI Lab @ UIUC"
 sitemap: false
@@ -61,17 +61,14 @@ We are located in the city of **Placeholder Text**. We regularly exchange ideas 
 
 We are grateful for funding from **Placeholder Text**, **Placeholder Text**, **Placeholder Text** and **Placeholder Text**.
 
-**News: Our group will move to the University of Munich (LMU)!** During the next two years, we will build up a "Lehrstuhl" (chair) at LMU and we will slowly move our instruments to Munich. We will be looking for PhD students, sub-group leaders, postdocs, engineering/technical stuff, and an administrative assistant. Please contact me if you are interested.
-More details to follow.
-
 *We are  looking for passionate new PhD students, Postdocs, and Master students to join the team* [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) *!*
 
 
 
 
-<figure class="fourth">
+<!-- <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
-</figure>
+</figure> -->
