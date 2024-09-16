@@ -6,4 +6,10 @@ sitemap: false
 permalink: /teaching
 ---
 
-Links to course websites go here.
+### Courses
+
+<ul>
+    <li><a href="{{ site.url }}{{ site.baseurl }}/Fall2024CS598ConvAI">Fall 2024: CS 598 - Conversational AI</a></li>
+</ul>
+
+
