@@ -61,7 +61,7 @@ We are located in the city of **Placeholder Text**. We regularly exchange ideas 
 
 We are grateful for funding from **Placeholder Text**, **Placeholder Text**, **Placeholder Text** and **Placeholder Text**.
 
-*We are  looking for passionate new PhD students, Postdocs, and Master students to join the team* [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) *!*
+<!-- *We are  looking for passionate new PhD students, Postdocs, and Master students to join the team* [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) *!* -->
 
 
 
