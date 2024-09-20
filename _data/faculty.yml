@@ -1,12 +1,14 @@
 - name: Dilek Hakkani-Tür
   photo: dilek.jpg
-  info: Professor
+  webpage: https://siebelschool.illinois.edu/about/people/all-faculty/dilek
   email: dilek@illinois.edu
 
 - name: Gokhan Tur
   photo: gokahn.jpg
-  info: Professor
+  webpage: https://www.linkedin.com/in/gokhan-tur-3294953/
   email: gokhan@illinois.edu
+
+
 
 
 
