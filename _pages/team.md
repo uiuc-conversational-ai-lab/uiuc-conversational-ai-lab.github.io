@@ -21,45 +21,41 @@ permalink: /team
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6" style="margin-bottom: 20px;">
-  <div class="member-container" style="display: flex; align-items: flex-start; box-shadow: 0 1px 3px rgba(0,0,0,0.1); padding: 10px; border-radius: 10px; max-width: 100%;">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="120px" style="border-radius: 10px; margin-right: 20px; object-fit: cover;" />
-    <div style="flex: 1;">
-      <h4 style="color: #007bff; margin: 0;"><a href="{{ member.webpage }}" style="text-decoration: none;">{{ member.name }}</a></h4>
-      <p style="margin: 5px 0; font-weight: bold;">{{ member.info }}</p>
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="33%" style="float: left" />
+  <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
+  <i>{{ member.info }} </i> 
 
-      {% if member.number_educ == 1 %}
-      <p style="margin: 5px 0;">{{ member.education1 }}</p>
-      {% endif %}
+  {% if member.number_educ == 1 %}
+  {{ member.education1 }}
+  {% endif %}
 
-      {% if member.number_educ == 2 %}
-      <p style="margin: 5px 0;">{{ member.education1 }}, {{ member.education2 }}</p>
-      {% endif %}
+  {% if member.number_educ == 2 %}
+  {{ member.education1 }}, {{ member.education2 }} 
+  {% endif %}
 
-      {% if member.has_past_aff == 1 %}
-      <p style="margin: 5px 0;">Past Affiliations: {{ member.past_aff }}</p>
-      {% endif %}
+  {% if member.has_past_aff == 1 %}
+  Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
 
-      {% if member.has_hobbies == 1 %}
-      <p style="margin: 5px 0;">Hobbies: {{ member.hobbies }}</p>
-      {% endif %}
+  {% if member.has_hobbies == 1 %}
+  Hobbies: {{ member.hobbies }} 
+  {% endif %}
 
-      <p style="margin: 5px 0;"><a href="mailto:{{ member.email }}" style="color: #007bff;">{{ member.email }}</a></p>
-    </div>
-  </div>
+  <a href="mailto:{{ member.email }}">{{ member.email }}</a>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
-</div> <!-- End of Row -->
+</div>
 {% endif %}
 
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</div> <!-- Close last row if there's an unpaired entry -->
+</div>
 {% endif %}
 
 
