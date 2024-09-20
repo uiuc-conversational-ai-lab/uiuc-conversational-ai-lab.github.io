@@ -26,14 +26,6 @@ permalink: /team
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
 
-  {% if member.has_hobbies == 1 %}
-  Hobbies: {{ member.hobbies }} 
-  {% endif %}
-
-  {% if member.has_past_aff == 1 %}
-  Past Affiliations: {{ member.past_aff }} 
-  {% endif %}
-
   {% if member.number_educ == 1 %}
   {{ member.education1 }}
   {% endif %}
@@ -42,7 +34,15 @@ permalink: /team
   {{ member.education1 }}, {{ member.education2 }} 
   {% endif %}
 
-  <code>{{ member.email }}> </code>
+  {% if member.has_past_aff == 1 %}
+  Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
+  {% if member.has_hobbies == 1 %}
+  Hobbies: {{ member.hobbies }} 
+  {% endif %}
+
+  <tt>{{ member.email }} </tt>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -81,14 +81,6 @@ permalink: /team
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
 
-  {% if member.has_hobbies == 1 %}
-  Hobbies: {{ member.hobbies }} 
-  {% endif %}
-
-  {% if member.has_past_aff == 1 %}
-  Past Affiliations: {{ member.past_aff }} 
-  {% endif %}
-
   {% if member.number_educ == 1 %}
   {{ member.education1 }}
   {% endif %}
@@ -97,7 +89,15 @@ permalink: /team
   {{ member.education1 }}, {{ member.education2 }} 
   {% endif %}
 
-  <code>{{ member.email }}> </code>
+  {% if member.has_past_aff == 1 %}
+  Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
+  {% if member.has_hobbies == 1 %}
+  Hobbies: {{ member.hobbies }} 
+  {% endif %}
+
+  <tt>{{ member.email }} </tt>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -133,14 +133,6 @@ permalink: /team
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
 
-  {% if member.has_hobbies == 1 %}
-  Hobbies: {{ member.hobbies }} 
-  {% endif %}
-
-  {% if member.has_past_aff == 1 %}
-  Past Affiliations: {{ member.past_aff }} 
-  {% endif %}
-
   {% if member.number_educ == 1 %}
   {{ member.education1 }}
   {% endif %}
@@ -149,7 +141,15 @@ permalink: /team
   {{ member.education1 }}, {{ member.education2 }} 
   {% endif %}
 
-  <code>{{ member.email }}> </code>
+  {% if member.has_past_aff == 1 %}
+  Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
+  {% if member.has_hobbies == 1 %}
+  Hobbies: {{ member.hobbies }} 
+  {% endif %}
+
+  <tt>{{ member.email }} </tt>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
