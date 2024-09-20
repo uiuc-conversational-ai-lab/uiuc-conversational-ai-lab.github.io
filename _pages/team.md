@@ -87,7 +87,7 @@ permalink: /team
 ### PhD Students
 
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for member in site.data.phd_students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -150,7 +150,7 @@ permalink: /team
 <!-- ### Masters Students
 
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for member in site.data.ms_students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -209,7 +209,7 @@ permalink: /team
 ### Undergrad Students
 
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for member in site.data.bs_students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
