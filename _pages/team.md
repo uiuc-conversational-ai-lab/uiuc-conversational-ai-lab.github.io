@@ -26,7 +26,7 @@ permalink: /team
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
   {% if member.has_hobbies == 1 %}
-  Hobbies: {{ member.hobbies }} </br>
+  Hobbies: {{ member.hobbies }} 
   {% endif %}
   <i><{{ member.email }}> </i>
   <ul style="overflow: hidden">
@@ -100,7 +100,7 @@ permalink: /team
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
   {% if member.has_hobbies == 1 %}
-  Hobbies: {{ member.hobbies }} </br>
+  Hobbies: {{ member.hobbies }} 
   {% endif %}
   <i><{{ member.email }}> </i>
   <ul style="overflow: hidden">
@@ -171,7 +171,7 @@ permalink: /team
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
   {% if member.has_hobbies == 1 %}
-  Hobbies: {{ member.hobbies }} </br>
+  Hobbies: {{ member.hobbies }} 
   {% endif %}
   <i><{{ member.email }}> </i>
   <ul style="overflow: hidden">
