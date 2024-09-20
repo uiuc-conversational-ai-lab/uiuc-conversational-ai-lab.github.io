@@ -1,0 +1,53 @@
+- name: Emre Can Acikgoz
+  photo: emre.jpg
+  webpage: https://emrecanacikgoz.github.io
+  has_hobbies: 1
+  hobbies: Working Out
+  email: acikgoz2@illinois.edu
+
+- name: Ishika Agarwal
+  photo: ishika.jpg
+  has_hobbies: 1
+  hobbies: Guitar
+  webpage: https://agarwalishika.github.io/
+  email: ishikaa2@illinois.edu
+
+- name: Janvijay Singh
+  photo: janvijay.jpg
+  has_hobbies: 1
+  hobbies: Reading, Running, Croteching
+  webpage: https://iamjanvijay.github.io/
+  email: jvsingh2@illinois.edu
+
+- name: Nimet Beyza Bozdag
+  photo: beyza.jpg
+  has_hobbies: 0
+  webpage: https://www.linkedin.com/in/nimet-beyza-bozdag/
+  email: nbozdag2@illinois.edu
+
+- name: Sagnik Mukherjee
+  photo: sagnik.jpg
+  has_hobbies: 1
+  hobbies: Reading, Working Out
+  webpage: https://sagnikmukherjee.github.io/
+  email: sagnikm3@illinois.edu
+
+- name: Shuhaib Mehri
+  photo: shuhaib.jpg
+  has_hobbies: 0
+  webpage: https://shuhaibm.github.io/
+  email: mehri2@illinois.edu
+
+- name: Takyoung Kim
+  photo: takyoung.jpg
+  has_hobbies: 1
+  hobbies: Jogging
+  webpage: https://youngerous.github.io/ 
+  email: tk30@illinois.edu
+
+- name: Vardhan Dongre
+  photo: vardhan.jpg
+  has_hobbies: 1
+  hobbies: Digital Arts
+  webpage: https://vardhandongre.github.io/
+  email: vdongre2@illinois.edu
