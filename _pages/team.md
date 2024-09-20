@@ -21,29 +21,30 @@ permalink: /team
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="33%" style="float: left" />
-  <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
-  <i>{{ member.info }} </i> 
+<div class="col-sm-6 clearfix" style="display: flex; align-items: flex-start;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="33%" style="margin-right: 15px;" />
+  <div>
+    <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
+    <i>{{ member.info }}</i> 
 
-  {% if member.number_educ == 1 %}
-  {{ member.education1 }}
-  {% endif %}
+    {% if member.number_educ == 1 %}
+    {{ member.education1 }}
+    {% endif %}
 
-  {% if member.number_educ == 2 %}
-  {{ member.education1 }}, {{ member.education2 }} 
-  {% endif %}
+    {% if member.number_educ == 2 %}
+    {{ member.education1 }}, {{ member.education2 }} 
+    {% endif %}
 
-  {% if member.has_past_aff == 1 %}
-  Past Affiliations: {{ member.past_aff }} 
-  {% endif %}
+    {% if member.has_past_aff == 1 %}
+    Past Affiliations: {{ member.past_aff }} 
+    {% endif %}
 
-  {% if member.has_hobbies == 1 %}
-  Hobbies: {{ member.hobbies }} 
-  {% endif %}
+    {% if member.has_hobbies == 1 %}
+    Hobbies: {{ member.hobbies }} 
+    {% endif %}
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:{{ member.email }}">{{ member.email }} </a>
-   
+    <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
