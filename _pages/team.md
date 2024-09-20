@@ -21,44 +21,45 @@ permalink: /team
 <div class="row">
 {% endif %}
 
-<div class="member-container" style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="150px" style="border-radius: 10px; margin-right: 20px;" />
-  <div>
-    <h4 style="color: #007bff;"><a href="{{ member.webpage }}" style="text-decoration: none;">{{ member.name }}</a></h4>
-    <p><strong>{{ member.info }}</strong></p>
+<div class="col-sm-6" style="margin-bottom: 20px;">
+  <div class="member-container" style="display: flex; align-items: flex-start; box-shadow: 0 1px 3px rgba(0,0,0,0.1); padding: 10px; border-radius: 10px; max-width: 100%;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="120px" style="border-radius: 10px; margin-right: 20px; object-fit: cover;" />
+    <div style="flex: 1;">
+      <h4 style="color: #007bff; margin: 0;"><a href="{{ member.webpage }}" style="text-decoration: none;">{{ member.name }}</a></h4>
+      <p style="margin: 5px 0; font-weight: bold;">{{ member.info }}</p>
 
-    {% if member.number_educ == 1 %}
-    <p>{{ member.education1 }}</p>
-    {% endif %}
+      {% if member.number_educ == 1 %}
+      <p style="margin: 5px 0;">{{ member.education1 }}</p>
+      {% endif %}
 
-    {% if member.number_educ == 2 %}
-    <p>{{ member.education1 }}, {{ member.education2 }}</p>
-    {% endif %}
+      {% if member.number_educ == 2 %}
+      <p style="margin: 5px 0;">{{ member.education1 }}, {{ member.education2 }}</p>
+      {% endif %}
 
-    {% if member.has_past_aff == 1 %}
-    <p>Past Affiliations: {{ member.past_aff }}</p>
-    {% endif %}
+      {% if member.has_past_aff == 1 %}
+      <p style="margin: 5px 0;">Past Affiliations: {{ member.past_aff }}</p>
+      {% endif %}
 
-    {% if member.has_hobbies == 1 %}
-    <p>Hobbies: {{ member.hobbies }}</p>
-    {% endif %}
+      {% if member.has_hobbies == 1 %}
+      <p style="margin: 5px 0;">Hobbies: {{ member.hobbies }}</p>
+      {% endif %}
 
-    <p><a href="mailto:{{ member.email }}" style="color: #007bff;">{{ member.email }}</a></p>
+      <p style="margin: 5px 0;"><a href="mailto:{{ member.email }}" style="color: #007bff;">{{ member.email }}</a></p>
+    </div>
   </div>
 </div>
-
 
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
-</div>
+</div> <!-- End of Row -->
 {% endif %}
 
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</div>
+</div> <!-- Close last row if there's an unpaired entry -->
 {% endif %}
 
 
