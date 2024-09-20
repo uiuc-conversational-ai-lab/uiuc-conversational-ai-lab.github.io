@@ -25,10 +25,15 @@ permalink: /team
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
+
   {% if member.has_hobbies == 1 %}
   Hobbies: {{ member.hobbies }} 
   {% endif %}
-  <i><{{ member.email }}> </i>
+
+  {% if member.has_past_aff == 1 %}
+  Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -60,8 +65,9 @@ permalink: /team
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   {% endif %}
-
   </ul>
+
+  <i><{{ member.email }}> </i>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -99,10 +105,15 @@ permalink: /team
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
+
   {% if member.has_hobbies == 1 %}
   Hobbies: {{ member.hobbies }} 
   {% endif %}
-  <i><{{ member.email }}> </i>
+
+  {% if member.has_past_aff == 1 %}
+  Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -134,8 +145,9 @@ permalink: /team
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   {% endif %}
-
   </ul>
+
+  <i><{{ member.email }}> </i>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -170,10 +182,15 @@ permalink: /team
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
+
   {% if member.has_hobbies == 1 %}
   Hobbies: {{ member.hobbies }} 
   {% endif %}
-  <i><{{ member.email }}> </i>
+
+  {% if member.has_past_aff == 1 %}
+  Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -205,8 +222,10 @@ permalink: /team
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   {% endif %}
-
   </ul>
+
+  <i><{{ member.email }}> </i>
+
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

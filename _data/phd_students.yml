@@ -4,6 +4,8 @@
   has_hobbies: 1
   hobbies: Working Out
   email: acikgoz2@illinois.edu
+  number_educ: 1
+  education1: BS/MS Koc University
 
 - name: Ishika Agarwal
   photo: ishika-cropped.jpeg
@@ -11,6 +13,9 @@
   hobbies: Guitar
   webpage: https://agarwalishika.github.io/
   email: ishikaa2@illinois.edu
+  number_educ: 2
+  education1: MS UIUC
+  education2: MS Purdue
 
 - name: Janvijay Singh
   photo: janvijay-cropped.jpeg
@@ -18,12 +23,17 @@
   hobbies: Reading, Running, Croteching
   webpage: https://iamjanvijay.github.io/
   email: jvsingh2@illinois.edu
+  number_educ: 2
+  education1: MS GaTech
+  education2: BTech IIT Varanasi
 
 - name: Nimet Beyza Bozdag
   photo: beyza-cropped.jpeg
   has_hobbies: 0
   webpage: https://www.linkedin.com/in/nimet-beyza-bozdag/
   email: nbozdag2@illinois.edu
+  number_educ: 1
+  education1: BS University of Arizona
 
 - name: Sagnik Mukherjee
   photo: sagnik-cropped.jpeg
@@ -31,12 +41,18 @@
   hobbies: Reading, Working Out
   webpage: https://sagnikmukherjee.github.io/
   email: sagnikm3@illinois.edu
-
+  number_educ: 1
+  education1: BTech IIT Kanpur
+  has_past_aff: 0
+  past_aff: Microsoft, Adobe
+  
 - name: Shuhaib Mehri
   photo: suhaib-cropped.jpeg
   has_hobbies: 0
   webpage: https://shuhaibm.github.io/
   email: mehri2@illinois.edu
+  number_educ: 1
+  education1: BS UBC
 
 - name: Takyoung Kim
   photo: takyoung-cropped.jpeg
@@ -44,6 +60,9 @@
   hobbies: Jogging
   webpage: https://youngerous.github.io/ 
   email: tk30@illinois.edu
+  number_educ: 2
+  education1: MS Korea University
+  education2: BS Sungkyunkwan University
 
 - name: Vardhan Dongre
   photo: vardhan-cropped.jpeg
@@ -51,3 +70,8 @@
   hobbies: Digital Arts
   webpage: https://vardhandongre.github.io/
   email: vdongre2@illinois.edu
+  number_educ: 2
+  education1: MS UIUC
+  education2: BTech MANIT Bhopal
+  has_past_aff: 0
+  past_aff: Brunswick Corporation
