@@ -21,11 +21,12 @@ permalink: /team
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix" style="display: flex; flex-wrap: nowrap; align-items: flex-start; gap: 15px;">
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" style="min-width: 80px; max-width: 100px; height: auto; float: left; margin-right: 10px;" />
+<div style="overflow: auto; margin: 20px;">
+    
+  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" style="float: left; margin-right: 15px; width: 150px; height: auto;">
 
-  <div style="flex-grow: 1;">
+  <div style="overflow: hidden;">  
     <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
     <i>{{ member.info }} </i> 
 
@@ -47,7 +48,7 @@ permalink: /team
 
     <a href="mailto:{{ member.email }}"> {{ member.email }} </a>
   </div>
-
+   
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -62,8 +63,6 @@ permalink: /team
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-
 
 
 
