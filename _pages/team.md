@@ -42,7 +42,7 @@ permalink: /team
   Hobbies: {{ member.hobbies }} 
   {% endif %}
 
-  <a href="mailto:{{ member.email }}"><tt> {{ member.email }} </tt></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:{{ member.email }}">{{ member.email }} </a>
    
 </div>
 
@@ -98,7 +98,7 @@ permalink: /team
   Hobbies: {{ member.hobbies }} 
   {% endif %}
 
-  <a href="mailto:{{ member.email }}"><tt> {{ member.email }} </tt></a>
+  <a href="mailto:{{ member.email }}">{{ member.email }}</a>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
