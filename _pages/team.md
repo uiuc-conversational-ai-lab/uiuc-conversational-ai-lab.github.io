@@ -22,7 +22,7 @@ permalink: /team
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="35%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="40%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
 
@@ -77,7 +77,7 @@ permalink: /team
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="35%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
 
@@ -129,7 +129,7 @@ permalink: /team
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
   <i>{{ member.info }} </i> 
 
