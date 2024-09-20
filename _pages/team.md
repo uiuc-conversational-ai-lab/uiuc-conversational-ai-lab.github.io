@@ -23,8 +23,8 @@ permalink: /team
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <a href="{{ member.webpage }}"><h4>{{ member.name }}</h4></a>
-  <i>{{ member.info }} <br>email: <{{ member.email }}></i>
+  <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
+  <i>{{ member.info }} <br><{{ member.email }}></i>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
