@@ -49,17 +49,15 @@ permalink: /
   </a>
 </div>
 
-We are a research group in the Siebel School of Computing and Data Science at the University of Illinois Urbana-Champaign. We are also part of the **Placeholder Text**
+We are a research group in the Siebel School of Computing and Data Science at the University of Illinois Urbana-Champaign. Our research spans Conversational AI Systems, Embodied AI, Natural Language Processing, and Machine Learning.
 
-Our research spans **Placeholder Text**, **Placeholder Text**, and **Placeholder Text**. We also work on problems in the intersection of **Placeholder Text**. Our current focus areas include:
+<!-- We also work on problems in the intersection of **Placeholder Text**. Our current focus areas include: -->
 
-1. **Placeholder Text**
-2. **Placeholder Text**
-3. **Placeholder Text**
 
-We are located in the city of **Placeholder Text**. We regularly exchange ideas and work with **Placeholder Text** Labs.
 
-We are grateful for funding from **Placeholder Text**, **Placeholder Text**, **Placeholder Text** and **Placeholder Text**.
+<!-- We are located in the city of Cham. We regularly exchange ideas and work with **Placeholder Text** Labs.
+
+We are grateful for funding from **Placeholder Text**, **Placeholder Text**, **Placeholder Text** and **Placeholder Text**. -->
 
 <!-- *We are  looking for passionate new PhD students, Postdocs, and Master students to join the team* [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) *!* -->
 
