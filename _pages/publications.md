@@ -76,7 +76,4 @@ permalink: /publications/
   {% endif %}
   <em>{{ publi.authors }}</em><br>
   {{ publi.link.display }}
-  {% endif %}
-{% endfor %}
-
 {% endfor %}
