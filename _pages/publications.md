@@ -68,13 +68,13 @@ permalink: /publications/
 
 {% assign number = 0 %}
 {% for publi in site.data.publist %}
-  {% if publi.link.url %}
-    {% assign number = number | plus: 1 %}
-    {{ number }}. [**{{ publi.title }}**]({{ publi.link.url }}){:target="_blank"}<br />
-  {% else %}
-    {% assign number = number | plus: 1 %}
-    {{ number }}. **{{ publi.title }}**<br />
-  {% endif %}
-  <em>{{ publi.authors }}</em><br />
-  {{ publi.link.display }}
+{% if publi.link.url %}
+{% assign number = number | plus: 1 %}
+{{ number }}. [**{{ publi.title }}**]({{ publi.link.url }}){:target="_blank"}<br />
+{% else %}
+{% assign number = number | plus: 1 %}
+{{ number }}. **{{ publi.title }}**<br />
+{% endif %}
+<em>{{ publi.authors }}</em><br />
+{{ publi.link.display }}
 {% endfor %}
