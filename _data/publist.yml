@@ -28,6 +28,13 @@
     display:  Conference on Empirical Methods in Natural Language Processing (EMNLP). 2024.
   highlight: 1
 
+- title: "Evaluation of Large Language Models for Task Completion"
+  authors: Taaha Kazi, Ruiliang Lyu, Sizhe Zhou, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    # url: 
+    display:  IEEE Spoken Language Technology Workshop. 2024.
+  highlight: 1
+
 - title: "Confidence Estimation for LLM-Based Dialogue State Tracking"
   authors: Yi-Jyun Sun, Suvodip Dey, Dilek Hakkani-Tür, Gokhan Tur
   link:
