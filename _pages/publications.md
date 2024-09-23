@@ -66,6 +66,8 @@ permalink: /publications/
 
 {% endfor %} -->
 
+(&#42; indicates equal contribution)
+
 {% assign number = 0 %}
 {% for publi in site.data.publist %}
 {% assign number = number | plus: 1 %}
