@@ -59,9 +59,24 @@ permalink: /publications/
 
 <!-- ## Full List of publications -->
 
-{% for publi in site.data.publist %}
+<!-- {% for publi in site.data.publist %}
 
   <a href="{{ publi.link.url }}">{{ publi.title }}</a> <br />
   <em>{{ publi.authors }} </em><br />{{ publi.link.display }}
+
+{% endfor %} -->
+
+{% assign number = 0 %}
+{% for publi in site.data.publist %}
+  {% assign number = number | plus: 1 %}
+  {% if publi.link.url %}
+    {{ number }}. <a href="{{ publi.link.url }}" target="_blank">**{{ publi.title }}**</a><br>
+  {% else %}
+    {{ number }}. **{{ publi.title }}**<br>
+  {% endif %}
+  <em>{{ publi.authors }}</em><br>
+  {{ publi.link.display }}
+  {% endif %}
+{% endfor %}
 
 {% endfor %}
