@@ -70,10 +70,10 @@ permalink: /publications/
 {% for publi in site.data.publist %}
   {% assign number = number | plus: 1 %}
   {% if publi.link.url %}
-    {{ number }}. <a href="{{ publi.link.url }}" target="_blank">**{{ publi.title }}**</a><br>
+    {{ number }}. <a href="{{ publi.link.url }}" target="_blank">**{{ publi.title }}**</a><br />
   {% else %}
-    {{ number }}. **{{ publi.title }}**<br>
+  {{ number }}. **{{ publi.title }}**<br />
   {% endif %}
-  <em>{{ publi.authors }}</em><br>
+  <em>{{ publi.authors }}</em><br />
   {{ publi.link.display }}
 {% endfor %}
