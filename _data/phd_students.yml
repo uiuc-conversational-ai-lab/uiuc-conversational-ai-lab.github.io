@@ -9,8 +9,10 @@
 
 - name: Ishika Agarwal
   photo: ishika-cropped.jpeg
-  has_hobbies: 1
+  has_hobbies: 0
   hobbies: Guitar
+  has_research_interests: 1
+  research_interests: Reasoning, Reinforcement Learning, Active Learning
   webpage: https://agarwalishika.github.io/
   email: ishikaa2@illinois.edu
   number_educ: 2
