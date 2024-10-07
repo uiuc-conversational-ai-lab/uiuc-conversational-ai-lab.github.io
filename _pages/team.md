@@ -38,13 +38,12 @@ permalink: /team
   Past Affiliations: {{ member.past_aff }} 
   {% endif %}
 
-  {% if member.has_hobbies == 1 %}
-  Hobbies: {{ member.hobbies }} 
-  {% endif %}
-
-
   {% if member.has_research_interests == 1 %}
   Research Interests: {{ member.research_interests }} 
+  {% endif %}
+
+  {% if member.has_hobbies == 1 %}
+  Hobbies: {{ member.hobbies }} 
   {% endif %}
 
   <a href="mailto:{{ member.email }}">{{ member.email }}</a>
@@ -90,6 +89,10 @@ permalink: /team
 
   {% if member.has_past_aff == 1 %}
   Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
+  {% if member.has_research_interests == 1 %}
+  Research Interests: {{ member.research_interests }} 
   {% endif %}
 
   {% if member.has_hobbies == 1 %}
@@ -144,6 +147,10 @@ permalink: /team
   Past Affiliations: {{ member.past_aff }} 
   {% endif %}
 
+  {% if member.has_research_interests == 1 %}
+  Research Interests: {{ member.research_interests }} 
+  {% endif %}
+
   {% if member.has_hobbies == 1 %}
   Hobbies: {{ member.hobbies }} 
   {% endif %}
@@ -194,6 +201,10 @@ permalink: /team
 
   {% if member.has_past_aff == 1 %}
   Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
+  {% if member.has_research_interests == 1 %}
+  Research Interests: {{ member.research_interests }} 
   {% endif %}
 
   {% if member.has_hobbies == 1 %}
@@ -247,6 +258,10 @@ permalink: /team
 
   {% if member.has_past_aff == 1 %}
   Past Affiliations: {{ member.past_aff }} 
+  {% endif %}
+
+  {% if member.has_research_interests == 1 %}
+  Research Interests: {{ member.research_interests }} 
   {% endif %}
 
   {% if member.has_hobbies == 1 %}
