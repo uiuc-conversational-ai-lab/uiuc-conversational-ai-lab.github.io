@@ -37,7 +37,9 @@
 
 - name: Sagnik Mukherjee
   photo: sagnik-cropped.jpeg
-  has_hobbies: 1
+  has_hobbies: 0
+  has_research_interests: 1
+  research_interests: LLM Evaluation (evaluation of chain of thoughts), Multi Agent Collaboration with LLMs
   hobbies: Reading, Working Out
   webpage: https://sagnikmukherjee.github.io/
   email: sagnikm3@illinois.edu
