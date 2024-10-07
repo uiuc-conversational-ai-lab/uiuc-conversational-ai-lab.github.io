@@ -42,6 +42,11 @@ permalink: /team
   Hobbies: {{ member.hobbies }} 
   {% endif %}
 
+
+  {% if member.has_research_interests == 1 %}
+  Research Interests: {{ member.research_interests }} 
+  {% endif %}
+
   <a href="mailto:{{ member.email }}">{{ member.email }}</a>
 </div>
 
