@@ -58,13 +58,15 @@
 
 - name: Takyoung Kim
   photo: takyoung-cropped.jpeg
+  has_research_interests: 1
+  research_interests: Embodied Conversation
   has_hobbies: 1
   hobbies: Jogging
   webpage: https://youngerous.github.io/ 
   email: tk30@illinois.edu
   number_educ: 2
-  education1: MS Korea University
-  education2: BS Sungkyunkwan University
+  education1: MS Korea Univ.
+  education2: BS Sungkyunkwan Univ.
 
 - name: Vardhan Dongre
   photo: vardhan-cropped.jpeg
