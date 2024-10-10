@@ -1,11 +1,14 @@
 - name: Emre Can Acikgoz
   photo: emre-cropped.jpeg
+  has_research_interests: 1
+  research_interests: Conversational Agents, Large Language Models
   webpage: https://emrecanacikgoz.github.io
-  has_hobbies: 1
+  has_hobbies: 0
   hobbies: Working Out
   email: acikgoz2@illinois.edu
-  number_educ: 1
-  education1: BS/MS Koc University
+  number_educ: 2
+  education1: MS Koc University
+  education2: BS Koc University
 
 - name: Ishika Agarwal
   photo: ishika-cropped.jpeg
