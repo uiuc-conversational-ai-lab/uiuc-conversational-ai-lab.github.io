@@ -5,5 +5,7 @@
   email: sdey@illinois.edu
   number_educ: 1
   education1: PhD IIT H, MTech IIT KGP, BTech IEM Kolkata
-  has_hobbies: 1
+  has_hobbies: 0
   hobbies: Painting
+  has_research_interests: 1
+  research_interests: Natural Language Processing, Conversational AI, Machine Learning
