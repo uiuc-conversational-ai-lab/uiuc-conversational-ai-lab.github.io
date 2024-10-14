@@ -31,6 +31,8 @@
   number_educ: 2
   education1: MS GaTech
   education2: BTech IIT Varanasi
+  has_research_interests: 1
+  research_interests: Reasoning in LLMs, AI Applications for Societal Impact
 
 - name: Nimet Beyza Bozdag
   photo: beyza-cropped.jpeg
