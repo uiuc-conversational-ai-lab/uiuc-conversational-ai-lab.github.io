@@ -58,10 +58,14 @@
 - name: Shuhaib Mehri
   photo: suhaib-cropped.jpeg
   has_hobbies: 0
+  has_research_interests: 1
+  research_interests: Alignment, Instruction Tuning, Data Synthesis, Evaluation
   webpage: https://shuhaibm.github.io/
   email: mehri2@illinois.edu
   number_educ: 1
   education1: BS UBC
+  has_past_aff: 1
+  past_aff: Amazon
 
 - name: Takyoung Kim
   photo: takyoung-cropped.jpeg
