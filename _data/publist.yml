@@ -1,4 +1,23 @@
+- title: "From Context to Action: Analysis of the Impact of State Representation and Context on Generalizability of Multi-Turn Web Navigation Agents"
+  authors: Nalin Tiwary&#42;, Vardhan Dongre&#42;, Sanil Chawala, Ashwin Lamani, Dilek Hakkani-Tür
+  link:
+    url: https://openreview.net/forum?id=8ocBIbsN6I
+    display: NeurIPS Workshop on Open-World Agents. 2024.
+  highlight: 1
 
+- title: "Simulating User Agents for Embodied Conversational AI"
+  authors: Daniel Phillipov, Vardhan Dongre, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://openreview.net/forum?id=xcok2UNQvB
+    display: NeurIPS Workshop on Open-World Agents. 2024.
+  highlight: 1
+
+- title: "Infogent: An Agent-based Framework for Web Information Aggregation"
+  authors: Revanth Gangi Reddy&#42;, Sagnik Mukherjee&#42;, Jeonghwan Kim&#42;, Zhenhailong Wang&#42;, Dilek Hakkani-Tür, Heng Ji
+  link:
+    url: https://openreview.net/forum?id=TtAG4EQYkf
+    display: NeurIPS Workshop on Open-World Agents. 2024.
+  highlight: 1
 
 - title: "Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging"
   authors: Priyanka Karagupta&#42;, Ishika Agarwal&#42;, Dilek Hakkani-Tür, Jiawei Han
