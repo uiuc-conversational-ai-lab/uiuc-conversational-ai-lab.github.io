@@ -1,6 +1,6 @@
-
-
 - title: "The Rise of Conversational AI Agents with Large Language Models"
+  image: conv-agents-blog.png
+  description: How are Large Language Models redefining Conversational AI? In this blog, discover how they're transforming simple, task-based dialogues into dynamic agents with the power to reason, plan, use tools, and act. Explore the challenges of this transformation and the future of intelligent, interactive AI!
   authors: Emre Can Acikgoz, Dilek Hakkani-Tur, Gokhan Tur 
   link:
     url: https://emrecanacikgoz.github.io/Conversational-Agents/
