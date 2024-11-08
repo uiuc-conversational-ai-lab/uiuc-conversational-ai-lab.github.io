@@ -21,13 +21,10 @@ permalink: /blogs/
 
 <div class="col-sm-6 clearfix">
  <div class="well">
-  <pubtit>{{ blogli.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ blogli.image }}" class="img-responsive" width="33%" style="float: left" />
+  <pubtit><a href="{{ blogli.link.url }}">{{ blogli.title }}</a></pubtit>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ blogli.image }}" class="img-responsive" width="45%" style="float: left" />
   <p>{{ blogli.description }}</p>
   <p><em>{{ blogli.authors }}</em></p>
-  <p><strong><a href="{{ blogli.link.url }}">{{ blogli.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ blogli.news1 }}</strong></p>
-  <p> {{ blogli.news2 }}</p>
  </div>
 </div>
 
