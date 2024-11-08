@@ -66,7 +66,7 @@ permalink: /blogs/
 
 {% endfor %} -->
 
-(&#42; indicates equal contribution)
+<!-- (&#42; indicates equal contribution) -->
 
 {% assign number = 0 %}
 {% for blog in site.data.bloglist %}
