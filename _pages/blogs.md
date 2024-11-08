@@ -25,6 +25,7 @@ permalink: /blogs/
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ blogli.image }}" class="img-responsive" width="45%" style="float: left" />
   <p>{{ blogli.description }}</p>
   <p><em>{{ blogli.authors }}</em></p>
+  <p><em>{{ blogli.date }}</em></p>
  </div>
 </div>
 
