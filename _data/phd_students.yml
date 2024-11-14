@@ -87,7 +87,9 @@
 - name: Vardhan Dongre
   photo: vardhan-cropped.jpeg
   has_hobbies: 1
-  hobbies: Digital Arts
+  has_research_interests: 1
+  research_interests: Reasoning, MARL, Embodied AI
+  hobbies: Digital Arts, Photography
   webpage: https://vardhandongre.github.io/
   email: vdongre2@illinois.edu
   number_educ: 2
