@@ -8,7 +8,9 @@ permalink: /projects/
 
 # Current Projects
 
-* DARPA Friction for Accountability in Conversational Transactions (FACT). *
+*** DARPA Friction for Accountability in Conversational Transactions (FACT). ***
+
+## DARPA Friction for Accountability in Conversational Transactions (FACT). ##
 
 <b>Team:</b UIUC (Lead), Northeastern University, USC
 
