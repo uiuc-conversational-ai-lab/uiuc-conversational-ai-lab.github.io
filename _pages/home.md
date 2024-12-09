@@ -50,7 +50,7 @@ permalink: /
 </div>
 
 We are a research group in the Siebel School of Computing and Data Science at the University of Illinois Urbana-Champaign. 
-The ConvAI@UIUC Lab was co-founded by Prof. Dilek Hakkani-T\"ur and Prof. Gokhan Tur in 2024, when they joined academia after 20+ years of research in industry. Our <A HREF="https://uiuc-conversational-ai-lab.github.io/team">team</A> currently includes 9 PhD students, 1 postdoctoral researcher, 2 undergraduate researchers and 1 MSc students. Our work focuses on conversational agents, large language models, reasoning, evaluation, and persuasion. 
+The ConvAI@UIUC Lab was co-founded by Prof. Dilek Hakkani-Tür and Prof. Gokhan Tur in 2024, when they joined academia after 20+ years of research in industry. Our <A HREF="https://uiuc-conversational-ai-lab.github.io/team">team</A> currently includes 9 PhD students, 1 postdoctoral researcher, 2 undergraduate researchers and 1 MSc students. Our work focuses on conversational agents, large language models, reasoning, evaluation, and persuasion. 
 
 Our work has been funded by DARPA, IARPA, Department of Education, Amazon and Microsoft. 
 
