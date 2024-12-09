@@ -1,4 +1,4 @@
-# Allan Lab Website
+# Conversational AI Lab at UIUC Website
 
 This is the website of our academic research group at UIUC, as forked from the Allan Lab Website from Leiden University.
 
