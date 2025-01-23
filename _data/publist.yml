@@ -1,50 +1,64 @@
+- title: "ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents"
+  authors: Vardhan Dongre, Xiaocheng Yang, Emre Can Acikgoz, Suvodip Dey, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2411.00927
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Learning to Explore and Select for Coverage-Conditioned Retrieval-Augmented Generation"
+  authors: Takyoung Kim, Kyungjae Lee, Young Rok Jang, Ji Yong Cho, Gangwoo Kim, Minseok Cho, Moontae Lee
+  link:
+    url: https://arxiv.org/abs/2407.01158
+    display: Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL, Findings). 2025.
+  highlight: 1
+
+- title: "Infogent: An Agent-based Framework for Web Information Aggregation"
+  authors: Revanth Gangi Reddy&#42;, Sagnik Mukherjee&#42;, Jeonghwan Kim&#42;, Zhenhailong Wang&#42;, Dilek Hakkani-Tür, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2410.19054
+    display: Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL, Findings). 2025.
+  highlight: 1
+
 - title: "From Context to Action: Analysis of the Impact of State Representation and Context on Generalizability of Multi-Turn Web Navigation Agents"
   authors: Nalin Tiwary&#42;, Vardhan Dongre&#42;, Sanil Chawala, Ashwin Lamani, Dilek Hakkani-Tür
   link:
     url: https://openreview.net/forum?id=8ocBIbsN6I
-    display: NeurIPS Workshop on Open-World Agents. 2024.
+    display: Neural Information Processing Systems (NeurIPS) Workshop on Open-World Agents. 2024.
   highlight: 1
 
 - title: "Simulating User Agents for Embodied Conversational AI"
   authors: Daniel Phillipov, Vardhan Dongre, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://openreview.net/forum?id=xcok2UNQvB
-    display: NeurIPS Workshop on Open-World Agents. 2024.
-  highlight: 1
-
-- title: "Infogent: An Agent-based Framework for Web Information Aggregation"
-  authors: Revanth Gangi Reddy&#42;, Sagnik Mukherjee&#42;, Jeonghwan Kim&#42;, Zhenhailong Wang&#42;, Dilek Hakkani-Tür, Heng Ji
-  link:
-    url: https://openreview.net/forum?id=TtAG4EQYkf
-    display: NeurIPS Workshop on Open-World Agents. 2024.
+    display: Neural Information Processing Systems (NeurIPS) Workshop on Open-World Agents. 2024.
   highlight: 1
 
 - title: "Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging"
   authors: Priyanka Karagupta&#42;, Ishika Agarwal&#42;, Dilek Hakkani-Tür, Jiawei Han
   link:
     url: https://arxiv.org/abs/2406.11709
-    display:  Conference on Empirical Methods in Natural Language Processing (EMNLP, Findings). 2024.
+    display:  Empirical Methods in Natural Language Processing (EMNLP, Findings). 2024.
   highlight: 1
 
 - title: "Cultural Conditioning or Placebo? On the Effectiveness of Socio-Demographic Prompting"
   authors: Sagnik Mukherjee&#42;, Muhammad Farid Adilazuarda&#42;, Sunayana Sitaram, Kalika Bali, Alham Fikri Aji, Monojit Choudhury
   link:
     url: https://arxiv.org/abs/2406.11661
-    display:  Conference on Empirical Methods in Natural Language Processing (EMNLP). 2024.
+    display:  Empirical Methods in Natural Language Processing (EMNLP). 2024.
   highlight: 1
 
 - title: "Towards Measuring and Modeling \"Culture\" in LLMs: A Survey"
   authors: Muhammad Farid Adilazuarda&#42;, Sagnik Mukherjee&#42;, Pradhyumna Lavania, Siddhant Singh, Alham Fikri Aji, Jacki O'Neill, Ashutosh Modi, Monojit Choudhury
   link:
     url: https://arxiv.org/abs/2403.15412
-    display:  Conference on Empirical Methods in Natural Language Processing (EMNLP). 2024.
+    display:  Empirical Methods in Natural Language Processing (EMNLP). 2024.
   highlight: 1
 
 - title: "Unsupervised Human Preference Learning"
   authors: Sumuk Shashidhar, Abhinav Chinta, Vaibhav Sahai, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2410.03731 
-    display:  Conference on Empirical Methods in Natural Language Processing (EMNLP). 2024.
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2024.
   highlight: 1
 
 - title: "Large Language Models as User Agents for Evaluating Task-Oriented-Dialogue Systems"
@@ -65,7 +79,7 @@
   authors: Stuti Agrawal, Nishi Uppuluri, Pranav Pillai, Revanth Gangi Reddy, Zoey Li, Gokhan Tur, Dilek Hakkani-Tür, Heng Ji
   link:
     url: https://arxiv.org/abs/2408.01623
-    display:  Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL). 2024.
+    display:  Special Interest Group on Discourse and Dialogue (SIGDIAL). 2024.
   highlight: 1
 
 
