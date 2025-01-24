@@ -12,6 +12,13 @@
     display: Preprint. 2024.
   highlight: 1
 
+- title: "DELIFT: Data Efficient Language model Instruction Fine Tuning"
+  authors: Ishika Agarwal, Krishnateja Killamsetty, Lucian Popa, Marina Danilevksy
+  link:
+    url: https://arxiv.org/abs/2411.04425
+    display: International Conference on Learning Representations (ICLR). 2025.
+  highlight: 1
+
 - title: "Learning to Explore and Select for Coverage-Conditioned Retrieval-Augmented Generation"
   authors: Takyoung Kim, Kyungjae Lee, Young Rok Jang, Ji Yong Cho, Gangwoo Kim, Minseok Cho, Moontae Lee
   link:
