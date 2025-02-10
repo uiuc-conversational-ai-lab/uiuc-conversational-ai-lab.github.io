@@ -1,3 +1,17 @@
+- title: "Beyond Sample-Level Feedback: Using Reference-Level Feedback to Guide Data Synthesis"
+  authors: Shuhaib Mehri, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2502.04511
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Better Slow than Sorry: Introducing Positive Friction for Reliable Dialogue Systems"
+  authors: Mert İnan, Anthony Sicilia, Suvodip Dey, Vardhan Dongre, Tejas Srinivasan, Jesse Thomason, Gökhan Tür, Dilek Hakkani-Tür, Malihe Alikhani
+  link:
+    url: https://arxiv.org/abs/2501.17348
+    display: Preprint. 2025.
+  highlight: 1
+
 - title: "Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling"
   authors: Suvodip Dey, Yi-Jyun Sun, Gokhan Tur, Dilek Hakkani-Tur
   link:
