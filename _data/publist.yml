@@ -1,3 +1,10 @@
+- title: "Premise-Augmented Reasoning Chains Improve Error Identification in Math reasoning with LLMs"
+  authors: Sagnik Mukherjee&#42;, Abhinav Chinta&#42;, Takyoung Kim, Tarun Anoop Sharma, Dilek Hakkani Tur
+  link:
+    url: https://arxiv.org/abs/2502.02362
+    display: Preprint. 2025.
+  highlight: 1
+
 - title: "Beyond Sample-Level Feedback: Using Reference-Level Feedback to Guide Data Synthesis"
   authors: Shuhaib Mehri, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
   link:
