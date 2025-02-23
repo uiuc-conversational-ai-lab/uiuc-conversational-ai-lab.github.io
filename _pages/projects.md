@@ -31,6 +31,6 @@ permalink: /projects/
 
 <b>Description:</b> This research project, funded by the <a href="https://www.microsoft.com/en-us/research/project/afmr-benchmarks-evaluation-and-measurement/"> Microsoft Accelerating Foundation Models Research: Benchmarks, Evaluation and Measurement program</a> focuses on assessing the task completion abilities of large language models (LLMs) through multi-turn conversational interactions within a multi-agent framework.
 
-### Upcomping Project: CEDAR: Characterizing, Explaining, and Detecting Risks Against Language and Multimodal Models.###
+### Upcomping Project: CEDAR: Characterizing, Explaining, and Detecting Risks Against Language and Multimodal Models. ###
 
 ### ... and more.
