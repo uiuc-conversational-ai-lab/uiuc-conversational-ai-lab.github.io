@@ -24,4 +24,12 @@ permalink: /projects/
 <b>Team:</b> Univ. at Buffalo (Lead), UIUC, UCLA, and others
 <b>Description:</b> The Center for Early Literacy and Responsible AI (CELaRAI), funded by the <a href="https://ies.ed.gov/use-work/awards/center-early-literacy-and-responsible-ai-celarai-innovating-beginning-reading-instruction-culturally?ID=6071">Institute of Education Sciences (IES)</a>, leads groundbreaking research on the integration of generative artificial intelligence (AI) in early literacy education. Focused on transforming K–2 beginning reading materials, CELaRAI is developing the innovative AI Reading Enhancer (AIRE), a student-focused tool designed to personalize text generation, provide real-time reading analysis, and offer on-the-spot literacy support. By advancing skills like phonics, word recognition, fluency, and comprehension, particularly for children from culturally and linguistically diverse backgrounds, CELaRAI is setting new benchmarks in literacy education. The center also serves as a national thought leader on responsible AI use, fostering impactful research, outreach, and capacity-building initiatives to shape the future of early literacy. You can find more information on the <a href = "https://earlyliteracyai.org/">CELaRAI project pages</a>.
 
+### MultiTurnTaskBench: Evaluation of Foundation Models for Multi-Turn Task Completion. ###
+<b>Team:</b> UIUC
+<b>Description:</> This research project, funded by the <a href="https://www.microsoft.com/en-us/research/project/afmr-benchmarks-evaluation-and-measurement/"> Microsoft Accelerating Foundation Models Research: Benchmarks, Evaluation and Measurement program</a> focuses on assessing the task completion abilities of large language models (LLMs) through multi-turn conversational interactions within a multi-agent framework.
+
+Related paper:
+
+ReSpAct: Harmonizing Reasoning, Speaking, and Acting
+
 ### ... and more.
