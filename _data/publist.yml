@@ -1,3 +1,24 @@
+- title: "Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model"
+  authors: Emre Can Acikgoz, Jeremiah Greer, Akul Datta, Ze Yang, William Zeng, Oussama Elachqar, Emmanouil Koukoumidis, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2502.08820
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "SMART: Self-Aware Agent for Tool Overuse Mitigation"
+  authors: Cheng Qian&#42;, Emre Can Acikgoz&#42;, Hongru Wang, Xiusi Chen, Avirup Sil, Dilek Hakkani-Tür, Gokhan Tur, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2502.11435
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific Language"
+  authors: Yubin Ge&#42;, Neeraja Kirtane&#42;, Hao Peng, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2501.14073
+    display: Preprint. 2025.
+  highlight: 1
+
 - title: "Data Valuation using Neural Networks for Efficient Instruction Fine-Tuning"
   authors: Ishika Agarwal, Dilek Hakkani-Tür
   link:
@@ -27,7 +48,7 @@
   highlight: 1
 
 - title: "Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling"
-  authors: Suvodip Dey, Yi-Jyun Sun, Gokhan Tur, Dilek Hakkani-Tur
+  authors: Suvodip Dey, Yi-Jyun Sun, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2501.10316
     display: Preprint. 2025.
