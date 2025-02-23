@@ -16,7 +16,9 @@ permalink: /projects/
 
 <a href="https://fact-becareful.github.io/becareful/"><b>Project Website</b></a>
 
+<!--
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/acc_dst_overview.png){: style="width: 50%; float: center; margin: 0px"}
+-->
 
 ### CELaRAI: Center for Early Literacy and Responsible AI. ###
 <b>Team:</b> Univ. at Buffalo (Lead), UIUC, UCLA, and others
