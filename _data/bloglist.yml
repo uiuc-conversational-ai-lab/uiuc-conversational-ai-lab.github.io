@@ -7,6 +7,15 @@
     url: https://emrecanacikgoz.github.io/Conversational-Agents/
   highlight: 1
 
+- title: "Embodied Conversational Agents and the Promise of Foundation Models"
+  image: conv-agents-2-blog.png
+  description: At the intersection of language models and robotics lies the next frontier in AI: physically embodied conversational agents. While LLMs have transformed language processing, they remain disconnected from the physical world. The crucial challenge ahead is creating robots that don't just follow commands but engage in natural dialogue—asking clarifying questions, adapting to uncertainty, and building shared understanding through interaction. How do we bridge the gap between abstract language comprehension and concrete physical reality to create truly integrated agents capable of rich, grounded conversations that mirror human interaction?
+  authors: Vardhan Dongre, Dilek Hakkani-Tur, Gokhan Tur 
+  date: March 8, 2025
+  link:
+    url: https://tinyurl.com/embodiedconvai
+  highlight: 1
+
 # - title: "Cultural Conditioning or Placebo? On the Effectiveness of Socio-Demographic Prompting"
 #   authors: Sagnik Mukherjee&#42;, Muhammad Farid Adilazuarda&#42;, Sunayana Sitaram, Kalika Bali, Alham Fikri Aji, Monojit Choudhury
 #   link:
