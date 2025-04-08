@@ -1,6 +1,6 @@
 - title: "The Rise of Conversational AI Agents with LLMs"
   image: conv-agents-2-blog.png
-  description: How are Large Language Models (LLMs) redefining Conversational AI? In this blog, discover how they're transforming simple, task-based dialogues into dynamic agents with the power to reason, plan, use tools, and act. Explore the challenges of this transformation and the future of intelligent, interactive AI!
+  description: "How are Large Language Models (LLMs) redefining Conversational AI? In this blog, discover how they're transforming simple, task-based dialogues into dynamic agents with the power to reason, plan, use tools, and act. Explore the challenges of this transformation and the future of intelligent, interactive AI!"
   authors: Emre Can Acikgoz, Dilek Hakkani-Tur, Gokhan Tur 
   date: Nov 8, 2024
   link:
@@ -9,7 +9,7 @@
 
 - title: "Embodied Conversational Agents and the Promise of Foundation Models"
   image: conv-agents-2-blog.png
-  description: At the intersection of language models and robotics lies the next frontier in AI: physically embodied conversational agents. While LLMs have transformed language processing, they remain disconnected from the physical world. The crucial challenge ahead is creating robots that don't just follow commands but engage in natural dialogue—asking clarifying questions, adapting to uncertainty, and building shared understanding through interaction. How do we bridge the gap between abstract language comprehension and concrete physical reality to create truly integrated agents capable of rich, grounded conversations that mirror human interaction?
+  description: "At the intersection of language models and robotics lies the next frontier in AI: physically embodied conversational agents. While LLMs have transformed language processing, they remain disconnected from the physical world. The crucial challenge ahead is creating robots that don't just follow commands but engage in natural dialogue—asking clarifying questions, adapting to uncertainty, and building shared understanding through interaction. How do we bridge the gap between abstract language comprehension and concrete physical reality to create truly integrated agents capable of rich, grounded conversations that mirror human interaction?"
   authors: Vardhan Dongre, Dilek Hakkani-Tur, Gokhan Tur 
   date: March 8, 2025
   link:
