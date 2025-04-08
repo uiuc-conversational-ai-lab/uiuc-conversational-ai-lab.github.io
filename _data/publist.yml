@@ -1,3 +1,10 @@
+- title: "YourBench: Easy Custom Evaluation Sets for Everyone"
+  authors: Sumuk Shashidhar, Clémentine Fourrier, Alina Lozovskia, Thomas Wolf, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2504.01833
+    display: Preprint. 2025.
+  highlight: 1
+
 - title: "Persuade Me if You Can: A Framework for Evaluating Persuasion Effectiveness and Susceptibility Among Large Language Models"
   authors: Nimet Beyza Bozdag, Shuhaib Mehri, Gokhan Tur, Dilek Hakkani-Tür
   link:
