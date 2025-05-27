@@ -16,14 +16,14 @@
   authors: Emre Can Acikgoz, Jeremiah Greer, Akul Datta, Ze Yang, William Zeng, Oussama Elachqar, Emmanouil Koukoumidis, Dilek Hakkani-Tür, Gokhan Tur
   link:
     url: https://arxiv.org/abs/2502.08820
-    display: Preprint. 2025.
+    display: ACL. 2025.
   highlight: 1
 
 - title: "SMART: Self-Aware Agent for Tool Overuse Mitigation"
   authors: Cheng Qian&#42;, Emre Can Acikgoz&#42;, Hongru Wang, Xiusi Chen, Avirup Sil, Dilek Hakkani-Tür, Gokhan Tur, Heng Ji
   link:
     url: https://arxiv.org/abs/2502.11435
-    display: Preprint. 2025.
+    display: ACL Findings. 2025.
   highlight: 1
 
 - title: "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific Language"
@@ -44,7 +44,7 @@
   authors: Sagnik Mukherjee&#42;, Abhinav Chinta&#42;, Takyoung Kim, Tarun Anoop Sharma, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2502.02362
-    display: Preprint. 2025.
+    display: ICML. 2025.
   highlight: 1
 
 - title: "Beyond Sample-Level Feedback: Using Reference-Level Feedback to Guide Data Synthesis"
@@ -58,21 +58,21 @@
   authors: Mert İnan, Anthony Sicilia, Suvodip Dey, Vardhan Dongre, Tejas Srinivasan, Jesse Thomason, Gökhan Tür, Dilek Hakkani-Tür, Malihe Alikhani
   link:
     url: https://arxiv.org/abs/2501.17348
-    display: Preprint. 2025.
+    display: Transactions of ACL (TACL). 2025.
   highlight: 1
 
 - title: "Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling"
   authors: Suvodip Dey, Yi-Jyun Sun, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2501.10316
-    display: Preprint. 2025.
+    display: ACL. 2025.
   highlight: 1
 
 - title: "ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents"
   authors: Vardhan Dongre, Xiaocheng Yang, Emre Can Acikgoz, Suvodip Dey, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2411.00927
-    display: Preprint. 2024.
+    display: IWSDS. 2025.
   highlight: 1
 
 - title: "DELIFT: Data Efficient Language model Instruction Fine Tuning"
