@@ -86,7 +86,7 @@
   authors: Cheng Qian&#42;, Emre Can Acikgoz&#42;, Hongru Wang, Xiusi Chen, Avirup Sil, Dilek Hakkani-Tür, Gokhan Tur, Heng Ji
   link:
     url: https://arxiv.org/abs/2502.11435
-    display: Findings of the Annual Meeting of the Association for Computational Linguistics (Findings of the ACL). 2025.
+    display: The Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2025.
   highlight: 1
 
 - title: "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific Language"
