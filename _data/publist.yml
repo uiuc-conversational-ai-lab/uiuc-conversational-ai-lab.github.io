@@ -1,7 +1,63 @@
+- title: "Language Specific Knowledge: Do Models Know Better in X than in English?"
+  authors: Ishika Agarwal, Nimet Beyza Bozdag, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.14990
+    display: Preprint. 2025.
+  highlight: 1
+
 - title: "Reinforcement Learning Finetunes Small Subnetworks in Large Language Models"
   authors: Sagnik Mukherjee, Lifan Yuan, Dilek Hakkani-Tür, Hao Peng
   link:
     url: https://arxiv.org/abs/2505.11711
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Must Read: A Systematic Survey of Computational Persuasion"
+  authors: Nimet Beyza Bozdag, Shuhaib Mehri, Xiaocheng Yang, Hyeonjeong Ha, Zirui Cheng, Esin Durmus, Jiaxuan You, Heng Ji, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.07775
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Uncovering Cross-Domain Recommendation Ability of Large Language Models"
+  authors: Xinyi Liu, Ruijie Wang, Dachun Sun, Dilek Hakkani-Tür, Tarek Abdelzaher
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3701716.3717850
+    display: Companion Proceedings of the ACM on Web Conference (WWW) 2025. 2025.
+  highlight: 1
+
+- title: "PIPA: A Unified Evaluation Protocol for Diagnosing Interactive Planning Agents"
+  authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.01592
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "TD-EVAL: Revisiting Task-Oriented Dialogue Evaluation by Combining Turn-Level Precision with Dialogue-Level Comparisons"
+  authors: Emre Can Acikgoz&#42;, Carl Guo&#42;, Suvodip Dey&#42;, Akul Datta, Takyoung Kim, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2504.19982
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Spark: A System for Scientifically Creative Idea Generation"
+  authors: Aishik Sanyal, Samuel Schapiro, Sumuk Shashidhar, Royce Moon, Lav R. Varshney, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2504.20090
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "ToolRL: Reward is All Tool Learning Needs"
+  authors: Cheng Qian, Emre Can Acikgoz, Qi He, Hongru Wang, Xiusi Chen, Dilek Hakkani-Tür, Gokhan Tur, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2504.13958
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions"
+  authors: Emre Can Acikgoz&#42;, Cheng Qian&#42;, Hongru Wang&#42;, Vardhan Dongre, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2504.16939
     display: Preprint. 2025.
   highlight: 1
   
