@@ -1,19 +1,12 @@
-- title: "Question Generation for Assessing Early Literacy Reading Comprehension"
-  authors: Xiaocheng Yang, Sumuk Shashidhar, Dilek Hakkani-Tür
+- title: "MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations"
+  authors: Vardhan Dongre&#42;, Chi Gui&#42;, Shubham Garg, Hooshang Nayyeri, Gokhan Tur, Dilek Hakkani-Tür, Vikram S. Adve
   link:
-    url: https://uiuc-conversational-ai-lab.github.io/CELaRAI_demo/
-    display: Workshop on Speech and Language Technology in Education (SLaTE). 2025
-  highlight: 1
-
-- title: "Enabling Chatbots with Eyes and Ears: An Immersive Multimodal Conversation System for Dynamic Interactions"
-  authors: Jihyoung Jang&#42;, Minwook Bae&#42;, Minji Kim, Dilek Hakkani-Tür, Hyounghun Kim
-  link:
-    url: https://arxiv.org/abs/2506.00421
-    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
+    url: https://arxiv.org/abs/2506.20100
+    display: Preprint. 2025.
   highlight: 1
 
 - title: "Language Specific Knowledge: Do Models Know Better in X than in English?"
-  authors: Ishika Agarwal, Nimet Beyza Bozdag, Dilek Hakkani-Tür
+  authors: Ishika Agarwal&#42;, Nimet Beyza Bozdag&#42;, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2505.14990
     display: Preprint. 2025.
@@ -33,24 +26,10 @@
     display: Preprint. 2025.
   highlight: 1
 
-- title: "Uncovering Cross-Domain Recommendation Ability of Large Language Models"
-  authors: Xinyi Liu, Ruijie Wang, Dachun Sun, Dilek Hakkani-Tür, Tarek Abdelzaher
-  link:
-    url: https://dl.acm.org/doi/abs/10.1145/3701716.3717850
-    display: Companion Proceedings of the ACM on Web Conference (WWW) 2025. 2025.
-  highlight: 1
-
 - title: "PIPA: A Unified Evaluation Protocol for Diagnosing Interactive Planning Agents"
   authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2505.01592
-    display: Preprint. 2025.
-  highlight: 1
-
-- title: "TD-EVAL: Revisiting Task-Oriented Dialogue Evaluation by Combining Turn-Level Precision with Dialogue-Level Comparisons"
-  authors: Emre Can Acikgoz&#42;, Carl Guo&#42;, Suvodip Dey&#42;, Akul Datta, Takyoung Kim, Gokhan Tur, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2504.19982
     display: Preprint. 2025.
   highlight: 1
 
@@ -74,33 +53,12 @@
     url: https://arxiv.org/abs/2504.16939
     display: Preprint. 2025.
   highlight: 1
-  
-- title: "YourBench: Easy Custom Evaluation Sets for Everyone"
-  authors: Sumuk Shashidhar, Clémentine Fourrier, Alina Lozovskia, Thomas Wolf, Gokhan Tur, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2504.01833
-    display: Preprint. 2025.
-  highlight: 1
 
 - title: "Persuade Me if You Can: A Framework for Evaluating Persuasion Effectiveness and Susceptibility Among Large Language Models"
   authors: Nimet Beyza Bozdag, Shuhaib Mehri, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2503.01829
     display: Preprint. 2025.
-  highlight: 1
-
-- title: "Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model"
-  authors: Emre Can Acikgoz, Jeremiah Greer, Akul Datta, Ze Yang, William Zeng, Oussama Elachqar, Emmanouil Koukoumidis, Dilek Hakkani-Tür, Gokhan Tur
-  link:
-    url: https://arxiv.org/abs/2502.08820
-    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
-  highlight: 1
-
-- title: "SMART: Self-Aware Agent for Tool Overuse Mitigation"
-  authors: Cheng Qian&#42;, Emre Can Acikgoz&#42;, Hongru Wang, Xiusi Chen, Avirup Sil, Dilek Hakkani-Tür, Gokhan Tur, Heng Ji
-  link:
-    url: https://arxiv.org/abs/2502.11435
-    display: The Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2025.
   highlight: 1
 
 - title: "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific Language"
@@ -117,13 +75,6 @@
     display: Preprint. 2025.
   highlight: 1
 
-- title: "Premise-Augmented Reasoning Chains Improve Error Identification in Math reasoning with LLMs"
-  authors: Sagnik Mukherjee&#42;, Abhinav Chinta&#42;, Takyoung Kim, Tarun Anoop Sharma, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2502.02362
-    display: International Conference on Machine Learning (ICML). 2025.
-  highlight: 1
-
 - title: "Beyond Sample-Level Feedback: Using Reference-Level Feedback to Guide Data Synthesis"
   authors: Shuhaib Mehri, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
   link:
@@ -131,18 +82,74 @@
     display: Preprint. 2025.
   highlight: 1
 
+- title: "Question Generation for Assessing Early Literacy Reading Comprehension"
+  authors: Xiaocheng Yang, Sumuk Shashidhar, Dilek Hakkani-Tür
+  link:
+    url: https://uiuc-conversational-ai-lab.github.io/CELaRAI_demo/
+    display: Workshop on Speech and Language Technology in Education (SLaTE). 2025
+  highlight: 1
+
+- title: "YourBench: Easy Custom Evaluation Sets for Everyone"
+  authors: Sumuk Shashidhar, Clémentine Fourrier, Alina Lozovskia, Thomas Wolf, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2504.01833
+    display: Conference on Language Modeling (COLM). 2025.
+  highlight: 1
+
+- title: "TD-EVAL: Revisiting Task-Oriented Dialogue Evaluation by Combining Turn-Level Precision with Dialogue-Level Comparisons"
+  authors: Emre Can Acikgoz&#42;, Carl Guo&#42;, Suvodip Dey&#42;, Akul Datta, Takyoung Kim, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2504.19982
+    display: Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL). 2025.
+  highlight: 1
+
+- title: "Uncovering Cross-Domain Recommendation Ability of Large Language Models"
+  authors: Xinyi Liu, Ruijie Wang, Dachun Sun, Dilek Hakkani-Tür, Tarek Abdelzaher
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3701716.3717850
+    display: Companion Proceedings of the ACM on Web Conference (WWW) 2025. 2025.
+  highlight: 1
+
+- title: "Enabling Chatbots with Eyes and Ears: An Immersive Multimodal Conversation System for Dynamic Interactions"
+  authors: Jihyoung Jang&#42;, Minwook Bae&#42;, Minji Kim, Dilek Hakkani-Tür, Hyounghun Kim
+  link:
+    url: https://arxiv.org/abs/2506.00421
+    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
+  highlight: 1
+
+- title: "Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model"
+  authors: Emre Can Acikgoz, Jeremiah Greer, Akul Datta, Ze Yang, William Zeng, Oussama Elachqar, Emmanouil Koukoumidis, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2502.08820
+    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
+  highlight: 1
+
+- title: "Know Your Mistakes: Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling"
+  authors: Suvodip Dey, Yi-Jyun Sun, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2501.10316
+    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
+  highlight: 1
+
+- title: "SMART: Self-Aware Agent for Tool Overuse Mitigation"
+  authors: Cheng Qian&#42;, Emre Can Acikgoz&#42;, Hongru Wang, Xiusi Chen, Avirup Sil, Dilek Hakkani-Tür, Gokhan Tur, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2502.11435
+    display: The Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2025.
+  highlight: 1
+
+- title: "Premise-Augmented Reasoning Chains Improve Error Identification in Math reasoning with LLMs"
+  authors: Sagnik Mukherjee&#42;, Abhinav Chinta&#42;, Takyoung Kim, Tarun Anoop Sharma, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2502.02362
+    display: International Conference on Machine Learning (ICML). 2025.
+  highlight: 1
+
 - title: "Better Slow than Sorry: Introducing Positive Friction for Reliable Dialogue Systems"
   authors: Mert İnan, Anthony Sicilia, Suvodip Dey, Vardhan Dongre, Tejas Srinivasan, Jesse Thomason, Gökhan Tür, Dilek Hakkani-Tür, Malihe Alikhani
   link:
     url: https://arxiv.org/abs/2501.17348
     display: Transactions of the Association for Computational Linguistics (TACL). 2025.
-  highlight: 1
-
-- title: "Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling"
-  authors: Suvodip Dey, Yi-Jyun Sun, Gokhan Tur, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2501.10316
-    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
   highlight: 1
 
 - title: "ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents"
@@ -233,7 +240,7 @@
   authors: Stuti Agrawal, Nishi Uppuluri, Pranav Pillai, Revanth Gangi Reddy, Zoey Li, Gokhan Tur, Dilek Hakkani-Tür, Heng Ji
   link:
     url: https://arxiv.org/abs/2408.01623
-    display:  Special Interest Group on Discourse and Dialogue (SIGDIAL). 2024.
+    display: Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL). 2024.
   highlight: 1
 
 
