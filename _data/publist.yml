@@ -1,3 +1,24 @@
+- title: "Goal Alignment in LLM-Based User Simulators for Conversational AI"
+  authors: Shuhaib Mehri, Xiaocheng Yang, Takyoung Kim, Gokhan Tur, Shikib Mehri, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2507.20152
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding Prompts?"
+  authors: Muntasir Wahed, Xiaona Zhou, Kiet A. Nguyen, Tianjiao Yu, Nirav Diwan, Gang Wang, Dilek Hakkani-Tür, Ismini Lourentzou
+  link:
+    url: https://arxiv.org/abs/2507.19598
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "DocCHA: Towards LLM-Augmented Interactive Online diagnosis System"
+  authors: Xinyi Liu, Dachun Sun, Yi R. Fung, Dilek Hakkani-Tür, Tarek Abdelzaher
+  link:
+    url: https://arxiv.org/abs/2507.07870
+    display: Preprint. 2025.
+  highlight: 1
+
 - title: "MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations"
   authors: Vardhan Dongre&#42;, Chi Gui&#42;, Shubham Garg, Hooshang Nayyeri, Gokhan Tur, Dilek Hakkani-Tür, Vikram S. Adve
   link:
