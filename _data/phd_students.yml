@@ -72,6 +72,14 @@
   has_past_aff: 1
   past_aff: Amazon
 
+- name: Sumuk Shashidhar
+  photo: sumuk-cropped.jpeg
+  has_hobbies: 0
+  webpage: https://sumuk.org/
+  email: sumuks2@illinois.edu
+  has_past_aff: 1
+  past_aff: HuggingFace, Rivian, Yahoo
+
 - name: Takyoung Kim
   photo: takyoung-cropped.jpeg
   has_research_interests: 1
