@@ -3,7 +3,7 @@
   has_research_interests: 1
   research_interests: Conversational Agents, Large Language Models
   webpage: https://emrecanacikgoz.github.io
-  has_hobbies: 0
+  has_hobbies: 1
   hobbies: Working Out
   email: acikgoz2@illinois.edu
   number_educ: 2
@@ -12,7 +12,7 @@
 
 - name: Ishika Agarwal
   photo: ishika-cropped.jpeg
-  has_hobbies: 0
+  has_hobbies: 1
   hobbies: Guitar
   has_research_interests: 1
   research_interests: Reasoning, Reinforcement Learning, Active Learning
@@ -36,7 +36,7 @@
 
 - name: Nimet Beyza Bozdag
   photo: beyza-cropped.jpeg
-  has_hobbies: 0
+  has_hobbies: 1
   has_research_interests: 1
   research_interests: Conversational Agents and Persuasion, Multi-Agent Collaboration
   hobbies: Painting, Photography
