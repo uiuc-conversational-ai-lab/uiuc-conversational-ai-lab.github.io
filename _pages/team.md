@@ -47,6 +47,7 @@ permalink: /team
   {% endif %}
 
   <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+  <br>
   <a href="{{ member.webpage }}">webpage</a>
 </div>
 
