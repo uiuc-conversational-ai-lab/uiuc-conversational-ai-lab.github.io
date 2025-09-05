@@ -3,10 +3,10 @@
   info: IEEE Fellow, ISCA Fellow, Amazon Scholar, TACL co-editor-in-chief, SIGdial President
   webpage: https://siebelschool.illinois.edu/about/people/all-faculty/dilek
   email: dilek@illinois.edu
-  number_educ: 0
+  number_educ: 1
   education1: MS/PhD Bilkent Univ
   education2: BS METU
-  has_past_aff: 0
+  has_past_aff: 1
   past_aff: Amazon Alexa, Google Research, Microsoft Research, ICSI, AT&T Labs
 
 - name: Gokhan Tur
@@ -14,9 +14,9 @@
   info: IEEE Fellow, Amazon Scholar
   webpage: https://www.linkedin.com/in/gokhan-tur-3294953/
   email: gokhan@illinois.edu
-  number_educ: 0
+  number_educ: 1
   education1: BS/MS/PhD Bilkent Univ
-  has_past_aff: 0
+  has_past_aff: 1
   past_aff: Amazon Alexa, Uber, Google Research, Microsoft Research, Apple, SRI, AT&T Labs
 
 
