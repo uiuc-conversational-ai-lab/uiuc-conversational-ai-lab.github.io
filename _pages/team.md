@@ -292,6 +292,8 @@ permalink: /team
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
+  <br>
+  Role: {{ member.role }}
   <ul style="overflow: hidden">
 
   </ul>
