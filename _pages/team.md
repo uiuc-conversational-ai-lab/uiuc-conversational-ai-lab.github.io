@@ -101,6 +101,7 @@ permalink: /team
   {% endif %}
 
   <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+  <a href="{{ member.webpage }}">{{ member.webpage }}</a>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -157,6 +158,8 @@ permalink: /team
   {% endif %}
 
   <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+  <a href="{{ member.webpage }}">{{ member.webpage }}</a>
+
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -210,6 +213,7 @@ permalink: /team
   {% endif %}
 
   <a href="mailto:{{ member.email }}"> {{ member.email }} </a>
+  <a href="{{ member.webpage }}">{{ member.webpage }}</a>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -292,7 +296,7 @@ permalink: /team
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> {{ member.webpage }}</i>
+  <a href="{{ member.webpage }}">{{ member.webpage }}</a>
   <ul style="overflow: hidden">
 
   </ul>
