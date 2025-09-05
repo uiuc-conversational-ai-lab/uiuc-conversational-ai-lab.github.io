@@ -224,7 +224,7 @@ permalink: /team
 </div>
 {% endif %}
 
-<--### Undergrad Students
+<!--### Undergrad Students
 
 {% assign number_printed = 0 %}
 {% for member in site.data.bs_students %}
