@@ -80,6 +80,15 @@
   has_past_aff: 1
   past_aff: HuggingFace, Rivian, Yahoo
 
+- name: Pardis Sadat Zahraei
+  photo: pardis.jpeg
+  webpage: https://pardissz.github.io/
+  email: zahraei2@illinois.edu
+  number_educ: 1
+  education1: BS Sharif University of Technology
+  has_research_interests: 1
+  research_interests: AI Safety and Alignment, Evaluation and Benchmarking of LLMs
+
 - name: Takyoung Kim
   photo: takyoung-cropped.jpeg
   has_research_interests: 1
