@@ -92,9 +92,10 @@
 - name: Takyoung Kim
   photo: takyoung-cropped.jpeg
   has_research_interests: 1
-  research_interests: Embodied Conversation
+  research_interests: Embodied & Spoken Dialogue
   has_hobbies: 1
-  hobbies: Jogging
+  has_past_aff: 1
+  past_aff: Amazon
   webpage: https://youngerous.github.io/ 
   email: tk30@illinois.edu
   number_educ: 2
