@@ -12,13 +12,6 @@
     display: Preprint. 2025.
   highlight: 1
 
-- title: "MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations"
-  authors: Vardhan Dongre&#42;, Chi Gui&#42;, Shubham Garg, Hooshang Nayyeri, Gokhan Tur, Dilek Hakkani-Tür, Vikram S. Adve
-  link:
-    url: https://arxiv.org/abs/2506.20100
-    display: Preprint. 2025.
-  highlight: 1
-
 - title: "Language Specific Knowledge: Do Models Know Better in X than in English?"
   authors: Ishika Agarwal&#42;, Nimet Beyza Bozdag&#42;, Dilek Hakkani-Tür
   link:
@@ -73,6 +66,13 @@
   link:
     url: https://arxiv.org/abs/2502.04511
     display: Preprint. 2025.
+  highlight: 1
+
+- title: "MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations"
+  authors: Vardhan Dongre&#42;, Chi Gui&#42;, Shubham Garg, Hooshang Nayyeri, Gokhan Tur, Dilek Hakkani-Tür, Vikram S. Adve
+  link:
+    url: https://arxiv.org/abs/2506.20100
+    display: Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track. 2025.
   highlight: 1
 
 - title: "ToolRL: Reward is All Tool Learning Needs"
