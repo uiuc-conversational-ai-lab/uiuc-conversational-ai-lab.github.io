@@ -3,7 +3,7 @@ title: "News: ConvAI Lab @ UIUC"
 layout: textlay
 excerpt: "News: ConvAI Lab @ UIUC"
 sitemap: false
-permalink: /allnews.html
+permalink: /news/
 ---
 
 # News
