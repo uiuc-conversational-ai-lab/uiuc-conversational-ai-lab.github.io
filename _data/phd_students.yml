@@ -1,11 +1,12 @@
 - name: Emre Can Acikgoz
-  photo: emre-cropped.jpeg
+  photo: emre-ver2.jpg
   has_research_interests: 1
   research_interests: Self-Evolving Agents, Test-Time Training
   webpage: https://emrecanacikgoz.github.io
   has_hobbies: 0
   email: acikgoz2@illinois.edu
   number_educ: 0
+  has_past_aff: 1
   past_aff: Amazon Alexa AI
 
 
