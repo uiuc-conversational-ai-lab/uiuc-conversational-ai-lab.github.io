@@ -1,14 +1,13 @@
 - name: Emre Can Acikgoz
   photo: emre-cropped.jpeg
   has_research_interests: 1
-  research_interests: Conversational Agents, Large Language Models
+  research_interests: Self-Evolving Agents, Test-Time Training
   webpage: https://emrecanacikgoz.github.io
-  has_hobbies: 1
-  hobbies: Working Out
+  has_hobbies: 0
   email: acikgoz2@illinois.edu
-  number_educ: 2
-  education1: MS Koc University
-  education2: BS Koc University
+  number_educ: 0
+  past_aff: Amazon Alexa AI
+
 
 - name: Ishika Agarwal
   photo: ishika-cropped.jpeg
