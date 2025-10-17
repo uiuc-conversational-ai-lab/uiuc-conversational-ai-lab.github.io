@@ -60,16 +60,14 @@
   past_aff: Microsoft, Adobe
   
 - name: Shuhaib Mehri
-  photo: suhaib-cropped.jpeg
+  photo: suhaib.jpg
   has_hobbies: 0
   has_research_interests: 1
-  research_interests: Alignment, Instruction Tuning, Data Synthesis, Evaluation
+  research_interests: User-Centric Interaction, Continual Learning, User Simulation
   webpage: https://shuhaibm.github.io/
   email: mehri2@illinois.edu
-  number_educ: 1
-  education1: BS UBC
   has_past_aff: 1
-  past_aff: Amazon
+  past_aff: IBM Research, Amazon
 
 - name: Sumuk Shashidhar
   photo: sumuk-cropped.jpeg
