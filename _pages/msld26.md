@@ -40,7 +40,7 @@ _A two-day meeting continuing the tradition of Illinois Speech Day and the Midwe
 
 ---
 
-## Getting to Urbana-Chamapgin / Venue Info
+## Getting to Urbana-Champaign / Venue Info
 
 ---
 
