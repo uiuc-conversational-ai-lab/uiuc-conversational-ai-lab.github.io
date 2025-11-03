@@ -103,12 +103,12 @@
   photo: vardhan-cropped.jpeg
   has_hobbies: 1
   has_research_interests: 1
-  research_interests: Reasoning, MARL, Embodied AI
+  research_interests: Multimodal Agents, Vision-Language Action Models, Embodied AI, MARL
   hobbies: Digital Arts, Photography
   webpage: https://vardhandongre.github.io/
   email: vdongre2@illinois.edu
   number_educ: 2
   education1: MS UIUC
-  education2: BTech MANIT Bhopal
+  education2: BTech NIT Bhopal
   has_past_aff: 1
-  past_aff: Brunswick Corporation
+  past_aff: Adobe Research, Brunswick Corporation
