@@ -31,7 +31,7 @@
   education1: MS GaTech
   education2: BTech IIT Varanasi
   has_research_interests: 1
-  research_interests: Characterizing and Modeling Design Attributes of Human-Like Reasoning in LLMs
+  research_interests: Characterizing and Modeling the Design Attributes of Human-Like Reasoning in LLMs
 
 - name: Nimet Beyza Bozdag
   photo: beyza-cropped.jpeg
@@ -111,4 +111,5 @@
   education2: BTech NIT Bhopal
   has_past_aff: 1
   past_aff: Adobe Research, Brunswick Corporation
+
 
