@@ -24,14 +24,14 @@
 - name: Janvijay Singh
   photo: janvijay-cropped.jpeg
   has_hobbies: 1
-  hobbies: Reading, Running, Croteching
+  hobbies: Biking, Photography, Reading
   webpage: https://iamjanvijay.github.io/
   email: jvsingh2@illinois.edu
   number_educ: 2
   education1: MS GaTech
   education2: BTech IIT Varanasi
   has_research_interests: 1
-  research_interests: Reasoning in LLMs, AI Applications for Societal Impact
+  research_interests: Characterizing and Modeling Design Attributes of Human-Like Reasoning in LLMs
 
 - name: Nimet Beyza Bozdag
   photo: beyza-cropped.jpeg
@@ -111,3 +111,4 @@
   education2: BTech NIT Bhopal
   has_past_aff: 1
   past_aff: Adobe Research, Brunswick Corporation
+
