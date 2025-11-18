@@ -21,7 +21,7 @@ permalink: /
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/group-outside.JPG" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/convai_carousel_image.jpg" alt="Slide 1" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/group-inside-2.jpg" alt="Slide 2" />
