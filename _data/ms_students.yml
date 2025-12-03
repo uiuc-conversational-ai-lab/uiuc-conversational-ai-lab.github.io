@@ -9,7 +9,7 @@
 - name: Nguyen Hoang
   photo: nguyen.jpg
   has_hobbies: 0
-  webpage: https://www.linkedin.com/in/hknguyen20/
+  webpage: https://nguyenkhoihoang.github.io/
   email: nkhoang2@illinois.edu
   number_educ: 1
   education1: BS VinUniversity
@@ -21,4 +21,5 @@
   webpage: https://www.linkedin.com/in/yi-jyun-sun-450748287/
   email: yjsun2@illinois.edu
   number_educ: 1
+
   education1: BS NYCU
