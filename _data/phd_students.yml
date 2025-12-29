@@ -112,4 +112,13 @@
   has_past_aff: 1
   past_aff: Adobe Research, Brunswick Corporation
 
-
+- name: Parisa Rabbani
+  photo: parisa.JPG
+  has_research_interests: 1
+  research_interests: Human-Centered AI, Responsible AI
+  webpage: https://ladypary.webflow.io/
+  email: rabbani8@illinois.edu
+  has_hobbies: 0
+  number_educ: 1
+  education1: BS University of Tehran
+  has_past_aff: 0
