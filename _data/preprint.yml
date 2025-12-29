@@ -1,0 +1,97 @@
+- title: "Drift No More? Context Equilibria in Multi-Turn LLM Interactions"
+  authors: Vardhan Dongre, Ryan A Rossi, Viet Dac Lai, David Seunghyun Yoon, Dilek Hakkani-Tür, Trung Bui
+  link:
+    url: https://arxiv.org/abs/2510.07777
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Self-improving llm agents at test-time"
+  authors: Emre Can Acikgoz, Cheng Qian, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2510.07841
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "On the Shelf Life of Fine-Tuned LLM Judges: Future Proofing, Backward Compatibility, and Question Generalization"
+  authors: Janvijay Singh, Austin Xu, Yilun Zhou, Yefan Zhou, Dilek Hakkani-Tur, Shafiq Joty
+  link:
+    url: https://arxiv.org/abs/2509.23542
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Combinatorial Creativity: A New Frontier in Generalization Abilities"
+  authors: Samuel Schapiro&#42;, Sumuk Shashidhar&#42;, Alexi Gladstone, Jonah Black, Royce Moon, Dilek Hakkani-Tür, Lav R Varshney
+  link:
+    url: https://arxiv.org/abs/2509.21043
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding Prompts?"
+  authors: Muntasir Wahed, Xiaona Zhou, Kiet A. Nguyen, Tianjiao Yu, Nirav Diwan, Gang Wang, Dilek Hakkani-Tür, Ismini Lourentzou
+  link:
+    url: https://arxiv.org/abs/2507.19598
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "DocCHA: Towards LLM-Augmented Interactive Online diagnosis System"
+  authors: Xinyi Liu, Dachun Sun, Yi R. Fung, Dilek Hakkani-Tür, Tarek Abdelzaher
+  link:
+    url: https://arxiv.org/abs/2507.07870
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Language Specific Knowledge: Do Models Know Better in X than in English?"
+  authors: Ishika Agarwal&#42;, Nimet Beyza Bozdag&#42;, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.14990
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Must Read: A Systematic Survey of Computational Persuasion"
+  authors: Nimet Beyza Bozdag, Shuhaib Mehri, Xiaocheng Yang, Hyeonjeong Ha, Zirui Cheng, Esin Durmus, Jiaxuan You, Heng Ji, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.07775
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "AURA: A Diagnostic Framework for Tracking User Satisfaction of Interactive Planning Agents"
+  authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.01592
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Spark: A System for Scientifically Creative Idea Generation"
+  authors: Aishik Sanyal, Samuel Schapiro, Sumuk Shashidhar, Royce Moon, Lav R. Varshney, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2504.20090
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions"
+  authors: Emre Can Acikgoz&#42;, Cheng Qian&#42;, Hongru Wang&#42;, Vardhan Dongre, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2504.16939
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Persuade Me if You Can: A Framework for Evaluating Persuasion Effectiveness and Susceptibility Among Large Language Models"
+  authors: Nimet Beyza Bozdag, Shuhaib Mehri, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2503.01829
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific Language"
+  authors: Yubin Ge&#42;, Neeraja Kirtane&#42;, Hao Peng, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2501.14073
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Beyond Sample-Level Feedback: Using Reference-Level Feedback to Guide Data Synthesis"
+  authors: Shuhaib Mehri, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2502.04511
+    display: Preprint. 2025.
+  highlight: 1

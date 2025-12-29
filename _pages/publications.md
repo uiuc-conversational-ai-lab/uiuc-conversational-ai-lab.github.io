@@ -68,7 +68,19 @@ permalink: /publications/
 
 (&#42; indicates equal contribution)
 
+## Preprints
+
 {% assign number = 0 %}
+{% for prepr in site.data.preprint %}
+{% assign number = number | plus: 1 %}
+{{ number }}. {% if prepr.link.url %}[**{{ prepr.title }}**]({{ prepr.link.url }}){:target="_blank"}{% else %}**{{ prepr.title }}**{% endif %}<br />
+<em>{{ prepr.authors }}</em><br />
+{{ prepr.link.display }}
+{% endfor %}
+
+## Published
+
+<!-- {% assign number = 0 %} -->
 {% for publi in site.data.publist %}
 {% assign number = number | plus: 1 %}
 {{ number }}. {% if publi.link.url %}[**{{ publi.title }}**]({{ publi.link.url }}){:target="_blank"}{% else %}**{{ publi.title }}**{% endif %}<br />
