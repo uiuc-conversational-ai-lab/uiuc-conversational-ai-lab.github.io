@@ -27,6 +27,13 @@
     display: Transactions of the Association for Computational Linguistics (TACL). 2026.
   highlight: 1
 
+- title: "Spark: A System for Scientifically Creative Idea Generation"
+  authors: Aishik Sanyal, Samuel Schapiro, Sumuk Shashidhar, Royce Moon, Lav R. Varshney, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2504.20090
+    display: International Conference on Computational Creativity (ICCC). 2025.
+  highlight: 1
+
 - title: "Plan Verification for LLM-Based Embodied Task Completion Agents"
   authors: Ananth Hariharan, Vardhan Dongre, Dilek Hakkani-Tür, Gokhan Tur
   link:
