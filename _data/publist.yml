@@ -20,6 +20,13 @@
     display: International Workshop on Spoken Dialogue Systems (IWSDS). 2026.
   highlight: 1
 
+- title: "Goal Alignment in LLM-Based User Simulators for Conversational AI"
+  authors: Shuhaib Mehri, Xiaocheng Yang, Takyoung Kim, Gokhan Tur, Shikib Mehri, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2507.20152
+    display: Transactions of the Association for Computational Linguistics (TACL). 2026.
+  highlight: 1
+
 - title: "Plan Verification for LLM-Based Embodied Task Completion Agents"
   authors: Ananth Hariharan, Vardhan Dongre, Dilek Hakkani-Tür, Gokhan Tur
   link:
@@ -32,14 +39,6 @@
   link:
     url: https://arxiv.org/abs/2510.07822
     display: Neural Information Processing Systems (NeurIPS) Workshop on Constrained Optimization for Machine Learning (COML). 2025.
-  highlight: 1
-
-
-- title: "Goal Alignment in LLM-Based User Simulators for Conversational AI"
-  authors: Shuhaib Mehri, Xiaocheng Yang, Takyoung Kim, Gokhan Tur, Shikib Mehri, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2507.20152
-    display: Transactions of the Association for Computational Linguistics (TACL). 2026.
   highlight: 1
 
 - title: "Conversational Agents in the Era of Large Language Models [Perspectives]"
