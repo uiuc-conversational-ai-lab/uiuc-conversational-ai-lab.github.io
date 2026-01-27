@@ -1,3 +1,32 @@
+- title: "ReIn: Conversational Error Recovery with Reasoning Inception"
+  authors: Takyoung Kim, Jinseok Nam, Chandrayee Basu, Xing Fan, Chengyuan Ma, Heng Ji, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    # url: 
+    display: International Conference on Learning Representations (ICLR). 2026.
+  highlight: 1
+
+- title: "On the Shelf Life of Fine-Tuned LLM Judges: Future Proofing, Backward Compatibility, and Question Generalization"
+  authors: Janvijay Singh, Austin Xu, Yilun Zhou, Yefan Zhou, Dilek Hakkani-Tur, Shafiq Joty
+  link:
+    url: https://arxiv.org/abs/2509.23542
+    display: International Conference on Learning Representations (ICLR). 2026.
+  highlight: 1
+
+- title: "Must Read: A Systematic Survey of Computational Persuasion"
+  authors: Nimet Beyza Bozdag, Shuhaib Mehri, Xiaocheng Yang, Hyeonjeong Ha, Zirui Cheng, Esin Durmus, Jiaxuan You, Heng Ji, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.07775
+    display: ACM Computing Surveys. 2026.
+  highlight: 1
+
+
+- title: "Beyond Sample-Level Feedback: Using Reference-Level Feedback to Guide Data Synthesis"
+  authors: Shuhaib Mehri, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2502.04511
+    display: European Chapter of the Association for Computational Linguistics (EACL). 2026.
+  highlight: 1
+
 - title: "SpeakRL: Synergizing Reasoning, Speaking, and Acting in Language Models with Reinforcement Learning"
   authors: Emre Can Acikgoz, Jinoh Oh, Jie Hao, Joo Hyuk Jeon, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur, Xiang Li, Chengyuan Ma, Xing Fan
   link:

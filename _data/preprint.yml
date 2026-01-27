@@ -1,3 +1,45 @@
+- title: "ATOD: An Evaluation Framework and Benchmark for Agentic Task-Oriented Dialogue System"
+  authors: Yifei Zhang, Hooshang Nayyeri, Rinat Khaziev, Emine Yilmaz, Gokhan Tur, Dilek Hakkani-Tür, Hari Thadakamalla
+  link:
+    url: https://arxiv.org/abs/2601.11854
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "DialDefer: A Framework for Detecting and Mitigating LLM Dialogic Deference"
+  authors: Parisa Rabbani, Priyam Sahoo, Ruben Mathew, Aishee Mondal, Harshita Ketharaman, Nimet Beyza Bozdag, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.10896
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "A Rising Tide Lifts All Boats: MTQE Rewards for Idioms Improve General Translation Quality"
+  authors: Ishika Agarwal, Zhenlin He, Dhruva Patil, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.06307
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Current Agents Fail to Leverage World Model as Tool for Foresight"
+  authors: Cheng Qian, Emre Can Acikgoz, Bingxuan Li, Xiusi Chen, Yuji Zhang, Bingxiang He, Qinyu Luo, Dilek Hakkani-Tür, Gokhan Tur, Yunzhu Li, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2601.03905
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Learning User Preferences Through Interaction for Long-Term Collaboration"
+  authors: Shuhaib Mehri, Priyanka Kargupta, Tal August, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.02702
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Do LLMs Encode Functional Importance of Reasoning Tokens?"
+  authors: Janvijay Singh, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.03066
+    display: Preprint. 2026.
+  highlight: 1
+
 - title: "Drift No More? Context Equilibria in Multi-Turn LLM Interactions"
   authors: Vardhan Dongre, Ryan A Rossi, Viet Dac Lai, David Seunghyun Yoon, Dilek Hakkani-Tür, Trung Bui
   link:
@@ -9,13 +51,6 @@
   authors: Emre Can Acikgoz, Cheng Qian, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
   link:
     url: https://arxiv.org/abs/2510.07841
-    display: Preprint. 2025.
-  highlight: 1
-
-- title: "On the Shelf Life of Fine-Tuned LLM Judges: Future Proofing, Backward Compatibility, and Question Generalization"
-  authors: Janvijay Singh, Austin Xu, Yilun Zhou, Yefan Zhou, Dilek Hakkani-Tur, Shafiq Joty
-  link:
-    url: https://arxiv.org/abs/2509.23542
     display: Preprint. 2025.
   highlight: 1
 
@@ -47,13 +82,6 @@
     display: Preprint. 2025.
   highlight: 1
 
-- title: "Must Read: A Systematic Survey of Computational Persuasion"
-  authors: Nimet Beyza Bozdag, Shuhaib Mehri, Xiaocheng Yang, Hyeonjeong Ha, Zirui Cheng, Esin Durmus, Jiaxuan You, Heng Ji, Gokhan Tur, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2505.07775
-    display: Preprint. 2025.
-  highlight: 1
-
 - title: "AURA: A Diagnostic Framework for Tracking User Satisfaction of Interactive Planning Agents"
   authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
   link:
@@ -82,9 +110,3 @@
     display: Preprint. 2025.
   highlight: 1
 
-- title: "Beyond Sample-Level Feedback: Using Reference-Level Feedback to Guide Data Synthesis"
-  authors: Shuhaib Mehri, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2502.04511
-    display: Preprint. 2025.
-  highlight: 1
