@@ -78,7 +78,7 @@ permalink: /publications/
 {{ prepr.link.display }}
 {% endfor %}
 
-## Published
+## Accepted
 
 <!-- {% assign number = 0 %} -->
 {% for publi in site.data.publist %}

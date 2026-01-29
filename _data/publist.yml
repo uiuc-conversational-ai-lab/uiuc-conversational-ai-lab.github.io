@@ -56,6 +56,20 @@
     display: Transactions of the Association for Computational Linguistics (TACL). 2026.
   highlight: 1
 
+- title: "Persuade Me if You Can: A Framework for Evaluating Persuasion Effectiveness and Susceptibility Among Large Language Models"
+  authors: Nimet Beyza Bozdag, Shuhaib Mehri, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2503.01829
+    display: Neural Information Processing Systems (NeurIPS) Workshop on Multi-Turn Interactions in Large Language Models. 2025.
+  highlight: 1
+
+- title: "AURA: A Diagnostic Framework for Tracking User Satisfaction of Interactive Planning Agents"
+  authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.01592
+    display: Neural Information Processing Systems (NeurIPS) Workshop on Multi-Turn Interactions in Large Language Models. 2025.
+  highlight: 1
+
 - title: "Spark: A System for Scientifically Creative Idea Generation"
   authors: Aishik Sanyal, Samuel Schapiro, Sumuk Shashidhar, Royce Moon, Lav R. Varshney, Dilek Hakkani-Tür
   link:

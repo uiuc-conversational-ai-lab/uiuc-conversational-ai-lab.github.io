@@ -86,7 +86,7 @@
   authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2505.01592
-    display: Preprint. 2025.
+    display: Neural Information Processing Systems (NeurIPS) Workshop on Multi-Turn Interactions in Large Language Models. 2025.
   highlight: 1
 
 - title: "A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions"
@@ -100,7 +100,7 @@
   authors: Nimet Beyza Bozdag, Shuhaib Mehri, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2503.01829
-    display: Preprint. 2025.
+    display: Neural Information Processing Systems (NeurIPS) Workshop on Multi-Turn Interactions in Large Language Models. 2025.
   highlight: 1
 
 - title: "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific Language"
