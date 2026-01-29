@@ -82,25 +82,11 @@
     display: Preprint. 2025.
   highlight: 1
 
-- title: "AURA: A Diagnostic Framework for Tracking User Satisfaction of Interactive Planning Agents"
-  authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2505.01592
-    display: Neural Information Processing Systems (NeurIPS) Workshop on Multi-Turn Interactions in Large Language Models. 2025.
-  highlight: 1
-
 - title: "A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions"
   authors: Emre Can Acikgoz&#42;, Cheng Qian&#42;, Hongru Wang&#42;, Vardhan Dongre, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
   link:
     url: https://arxiv.org/abs/2504.16939
     display: Preprint. 2025.
-  highlight: 1
-
-- title: "Persuade Me if You Can: A Framework for Evaluating Persuasion Effectiveness and Susceptibility Among Large Language Models"
-  authors: Nimet Beyza Bozdag, Shuhaib Mehri, Gokhan Tur, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2503.01829
-    display: Neural Information Processing Systems (NeurIPS) Workshop on Multi-Turn Interactions in Large Language Models. 2025.
   highlight: 1
 
 - title: "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific Language"
