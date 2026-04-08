@@ -122,3 +122,16 @@
   number_educ: 1
   education1: BS University of Tehran
   has_past_aff: 0
+
+- name: Amruta Parulekar
+  photo: amruta.png
+  has_research_interests: 1
+  research_interests: Multimodality, Reasoning, Safety
+  webpage: https://amparulekar.github.io
+  email: amp20@illinois.edu
+  has_hobbies: 1
+  hobbies: Painting, Photography, Keyboard, Reading, Hiking
+  number_educ: 2
+  education1: BTech IIT Bombay
+  education2: MTech IIT Bombay
+  has_past_aff: 0
