@@ -1,18 +1,17 @@
 - name: Emre Can Acikgoz
-  photo: emre-cropped.jpeg
+  photo: emre-ver2.jpg
   has_research_interests: 1
-  research_interests: Conversational Agents, Large Language Models
+  research_interests: Self-Evolving Agents, Test-Time Training
   webpage: https://emrecanacikgoz.github.io
   has_hobbies: 0
-  hobbies: Working Out
   email: acikgoz2@illinois.edu
-  number_educ: 2
-  education1: MS Koc University
-  education2: BS Koc University
+  has_past_aff: 1
+  past_aff: Amazon Alexa AI
+
 
 - name: Ishika Agarwal
   photo: ishika-cropped.jpeg
-  has_hobbies: 0
+  has_hobbies: 1
   hobbies: Guitar
   has_research_interests: 1
   research_interests: Reasoning, Reinforcement Learning, Active Learning
@@ -25,18 +24,18 @@
 - name: Janvijay Singh
   photo: janvijay-cropped.jpeg
   has_hobbies: 1
-  hobbies: Reading, Running, Croteching
+  hobbies: Biking, Photography, Reading
   webpage: https://iamjanvijay.github.io/
   email: jvsingh2@illinois.edu
   number_educ: 2
   education1: MS GaTech
   education2: BTech IIT Varanasi
   has_research_interests: 1
-  research_interests: Reasoning in LLMs, AI Applications for Societal Impact
+  research_interests: Characterizing and Modeling the Design Attributes of Human-Like Reasoning in LLMs
 
 - name: Nimet Beyza Bozdag
   photo: beyza-cropped.jpeg
-  has_hobbies: 0
+  has_hobbies: 1
   has_research_interests: 1
   research_interests: Conversational Agents and Persuasion, Multi-Agent Collaboration
   hobbies: Painting, Photography
@@ -61,23 +60,39 @@
   past_aff: Microsoft, Adobe
   
 - name: Shuhaib Mehri
-  photo: suhaib-cropped.jpeg
+  photo: shuhaib.jpg
   has_hobbies: 0
   has_research_interests: 1
-  research_interests: Alignment, Instruction Tuning, Data Synthesis, Evaluation
+  research_interests: User-Centric Interaction, Continual Learning, User Simulation
   webpage: https://shuhaibm.github.io/
   email: mehri2@illinois.edu
-  number_educ: 1
-  education1: BS UBC
   has_past_aff: 1
-  past_aff: Amazon
+  past_aff: IBM Research, Amazon
+
+- name: Sumuk Shashidhar
+  photo: sumuk-cropped.jpeg
+  has_hobbies: 0
+  webpage: https://sumuk.org/
+  email: sumuks2@illinois.edu
+  has_past_aff: 1
+  past_aff: HuggingFace, Rivian, Yahoo
+
+- name: Pardis Sadat Zahraei
+  photo: pardis.jpeg
+  webpage: https://pardissz.github.io/
+  email: zahraei2@illinois.edu
+  number_educ: 1
+  education1: BS Sharif University of Technology
+  has_research_interests: 1
+  research_interests: AI Safety and Alignment, Evaluation and Benchmarking of LLMs
 
 - name: Takyoung Kim
   photo: takyoung-cropped.jpeg
   has_research_interests: 1
-  research_interests: Embodied Conversation
-  has_hobbies: 1
-  hobbies: Jogging
+  research_interests: Embodied & Spoken Dialogue
+  has_hobbies: 0
+  has_past_aff: 1
+  past_aff: Amazon
   webpage: https://youngerous.github.io/ 
   email: tk30@illinois.edu
   number_educ: 2
@@ -86,14 +101,37 @@
 
 - name: Vardhan Dongre
   photo: vardhan-cropped.jpeg
-  has_hobbies: 1
+  has_hobbies: 0
   has_research_interests: 1
-  research_interests: Reasoning, MARL, Embodied AI
-  hobbies: Digital Arts, Photography
+  research_interests: Multimodal Agents, Embodied Conversational AI
   webpage: https://vardhandongre.github.io/
   email: vdongre2@illinois.edu
   number_educ: 2
   education1: MS UIUC
-  education2: BTech MANIT Bhopal
+  education2: BTech NIT Bhopal
   has_past_aff: 1
-  past_aff: Brunswick Corporation
+  past_aff: Adobe Research, Brunswick Corporation
+
+- name: Parisa Rabbani
+  photo: parisa.JPG
+  has_research_interests: 1
+  research_interests: Human-Centered AI, Responsible AI
+  webpage: https://ladypary.webflow.io/
+  email: rabbani8@illinois.edu
+  has_hobbies: 0
+  number_educ: 1
+  education1: BS University of Tehran
+  has_past_aff: 0
+
+- name: Amruta Parulekar
+  photo: amruta.png
+  has_research_interests: 1
+  research_interests: Multimodality, Reasoning, Safety
+  webpage: https://amparulekar.github.io
+  email: amp20@illinois.edu
+  has_hobbies: 1
+  hobbies: Painting, Photography, Keyboard, Reading, Hiking
+  number_educ: 2
+  education1: MTech IIT Bombay
+  education2: BTech IIT Bombay
+  has_past_aff: 0

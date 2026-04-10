@@ -156,6 +156,7 @@ permalink: /team
   {% endif %}
 
   <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -170,9 +171,6 @@ permalink: /team
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-
-
 
 
 ### Masters Students
@@ -227,12 +225,7 @@ permalink: /team
 </div>
 {% endif %}
 
-
-
-
-
-
-### Undergrad Students
+<!--### Undergrad Students
 
 {% assign number_printed = 0 %}
 {% for member in site.data.bs_students %}
@@ -283,87 +276,9 @@ permalink: /team
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ## Alumni
+## Alumni
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
@@ -376,8 +291,9 @@ permalink: /team
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
+  <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
+  <br>
+  Role: {{ member.role }}
   <ul style="overflow: hidden">
 
   </ul>
@@ -396,32 +312,4 @@ permalink: /team
 </div>
 {% endif %}
 
-## Former visitors, BSc/ MSc students
-<div class="row">
 
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
-{% for member in site.data.alumni_bsc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-</div>
-
-
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration. -->

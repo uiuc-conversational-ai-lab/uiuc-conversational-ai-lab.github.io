@@ -1,0 +1,98 @@
+- title: "ATOD: An Evaluation Framework and Benchmark for Agentic Task-Oriented Dialogue System"
+  authors: Yifei Zhang, Hooshang Nayyeri, Rinat Khaziev, Emine Yilmaz, Gokhan Tur, Dilek Hakkani-Tür, Hari Thadakamalla
+  link:
+    url: https://arxiv.org/abs/2601.11854
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "DialDefer: A Framework for Detecting and Mitigating LLM Dialogic Deference"
+  authors: Parisa Rabbani, Priyam Sahoo, Ruben Mathew, Aishee Mondal, Harshita Ketharaman, Nimet Beyza Bozdag, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.10896
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "A Rising Tide Lifts All Boats: MTQE Rewards for Idioms Improve General Translation Quality"
+  authors: Ishika Agarwal, Zhenlin He, Dhruva Patil, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.06307
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Current Agents Fail to Leverage World Model as Tool for Foresight"
+  authors: Cheng Qian, Emre Can Acikgoz, Bingxuan Li, Xiusi Chen, Yuji Zhang, Bingxiang He, Qinyu Luo, Dilek Hakkani-Tür, Gokhan Tur, Yunzhu Li, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2601.03905
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Learning User Preferences Through Interaction for Long-Term Collaboration"
+  authors: Shuhaib Mehri, Priyanka Kargupta, Tal August, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.02702
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Do LLMs Encode Functional Importance of Reasoning Tokens?"
+  authors: Janvijay Singh, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.03066
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Drift No More? Context Equilibria in Multi-Turn LLM Interactions"
+  authors: Vardhan Dongre, Ryan A Rossi, Viet Dac Lai, David Seunghyun Yoon, Dilek Hakkani-Tür, Trung Bui
+  link:
+    url: https://arxiv.org/abs/2510.07777
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Self-improving llm agents at test-time"
+  authors: Emre Can Acikgoz, Cheng Qian, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2510.07841
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Combinatorial Creativity: A New Frontier in Generalization Abilities"
+  authors: Samuel Schapiro&#42;, Sumuk Shashidhar&#42;, Alexi Gladstone, Jonah Black, Royce Moon, Dilek Hakkani-Tür, Lav R Varshney
+  link:
+    url: https://arxiv.org/abs/2509.21043
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding Prompts?"
+  authors: Muntasir Wahed, Xiaona Zhou, Kiet A. Nguyen, Tianjiao Yu, Nirav Diwan, Gang Wang, Dilek Hakkani-Tür, Ismini Lourentzou
+  link:
+    url: https://arxiv.org/abs/2507.19598
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "DocCHA: Towards LLM-Augmented Interactive Online diagnosis System"
+  authors: Xinyi Liu, Dachun Sun, Yi R. Fung, Dilek Hakkani-Tür, Tarek Abdelzaher
+  link:
+    url: https://arxiv.org/abs/2507.07870
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "Language Specific Knowledge: Do Models Know Better in X than in English?"
+  authors: Ishika Agarwal&#42;, Nimet Beyza Bozdag&#42;, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2505.14990
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions"
+  authors: Emre Can Acikgoz&#42;, Cheng Qian&#42;, Hongru Wang&#42;, Vardhan Dongre, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2504.16939
+    display: Preprint. 2025.
+  highlight: 1
+
+- title: "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific Language"
+  authors: Yubin Ge&#42;, Neeraja Kirtane&#42;, Hao Peng, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2501.14073
+    display: Preprint. 2025.
+  highlight: 1
+
