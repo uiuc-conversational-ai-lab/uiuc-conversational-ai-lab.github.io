@@ -1,3 +1,45 @@
+- title: "DialDefer: A Framework for Detecting and Mitigating LLM Dialogic Deference"
+  authors: Parisa Rabbani, Priyam Sahoo, Ruben Mathew, Aishee Mondal, Harshita Ketharaman, Nimet Beyza Bozdag, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.10896
+    display: Annual Meeting of the Association for Computational Linguistics (ACL). 2026.
+  highlight: 1
+
+- title: "Current Agents Fail to Leverage World Model as Tool for Foresight"
+  authors: Cheng Qian, Emre Can Acikgoz, Bingxuan Li, Xiusi Chen, Yuji Zhang, Bingxiang He, Qinyu Luo, Dilek Hakkani-Tür, Gokhan Tur, Yunzhu Li, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2601.03905
+    display: Annual Meeting of the Association for Computational Linguistics (ACL). 2026.
+  highlight: 1
+
+- title: "Do LLMs Encode Functional Importance of Reasoning Tokens?"
+  authors: Janvijay Singh, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.03066
+    display: Annual Meeting of the Association for Computational Linguistics (ACL). 2026.
+  highlight: 1
+
+- title: "From Documents to Segments: A Contextual Reformulation for Topic Assignment"
+  authors: Hoonsang Yoon&#42;, Takyoung Kim&#42;, Wonkee Lee, Ilmin Cho, Dilek Hakkani-Tür, Stanley Jungkyu Choi.
+  link:
+    # url: 
+    display: Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2026.
+  highlight: 1
+
+- title: "TT-SI: Self-Improving LLM Agents with Test-Time Training"
+  authors: Emre Can Acikgoz, Cheng Qian, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2510.07841
+    display: Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2026.
+  highlight: 1
+
+- title: "Prior Beliefs Prejudice LLM-as-Judge: Evidence from Persuasion Evaluation"
+  authors: Pardis Sadat Zahraei, Xiaoning Wang, Nimet Beyza Bozdag, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    # url: 
+    display: Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2026.
+  highlight: 1
+
 - title: "ReIn: Conversational Error Recovery with Reasoning Inception"
   authors: Takyoung Kim, Jinseok Nam, Chandrayee Basu, Xing Fan, Chengyuan Ma, Heng Ji, Gokhan Tur, Dilek Hakkani-Tür
   link:
@@ -158,28 +200,28 @@
   authors: Jihyoung Jang&#42;, Minwook Bae&#42;, Minji Kim, Dilek Hakkani-Tür, Hyounghun Kim
   link:
     url: https://arxiv.org/abs/2506.00421
-    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
+    display: Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
   highlight: 1
 
 - title: "Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model"
   authors: Emre Can Acikgoz, Jeremiah Greer, Akul Datta, Ze Yang, William Zeng, Oussama Elachqar, Emmanouil Koukoumidis, Dilek Hakkani-Tür, Gokhan Tur
   link:
     url: https://arxiv.org/abs/2502.08820
-    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
+    display: Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
   highlight: 1
 
 - title: "Know Your Mistakes: Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling"
   authors: Suvodip Dey, Yi-Jyun Sun, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2501.10316
-    display: The Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
+    display: Annual Meeting of the Association for Computational Linguistics (ACL). 2025.
   highlight: 1
 
 - title: "SMART: Self-Aware Agent for Tool Overuse Mitigation"
   authors: Cheng Qian&#42;, Emre Can Acikgoz&#42;, Hongru Wang, Xiusi Chen, Avirup Sil, Dilek Hakkani-Tür, Gokhan Tur, Heng Ji
   link:
     url: https://arxiv.org/abs/2502.11435
-    display: The Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2025.
+    display: Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2025.
   highlight: 1
 
 - title: "Premise-Augmented Reasoning Chains Improve Error Identification in Math reasoning with LLMs"
