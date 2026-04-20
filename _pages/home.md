@@ -7,37 +7,30 @@ permalink: /
 ---
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <!-- <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li> -->
-    </ol>
+    <ol class="carousel-indicators"></ol>
 
-    <!-- Items -->
     <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/convai_carousel_image.jpg" alt="Slide 1" />
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/convai_carousel_image.jpg" alt="ConvAI Lab" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/group-inside-2.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/group-inside-2.jpg" alt="Lab group photo (inside)" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/thomas-siebel.jpg" alt="Slide 3" />
-        </div>
-        <!-- <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/group-outside.JPG" alt="Lab group photo (outside)" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Fig_Science_Web.jpg" alt="Slide 5" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/BSCCO2gap2.jpg" alt="Slide 6" />
-        </div> -->
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/IMG_3150.JPG" alt="Lab photo" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/IMG_3147.JPG" alt="Lab photo" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/IMG_3148.JPG" alt="Lab photo" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/IMG_3149.JPG" alt="Lab photo" />
+        </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -48,6 +41,34 @@ permalink: /
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<script>
+(function () {
+  var inner = document.querySelector('#carousel .carousel-inner');
+  var indicators = document.querySelector('#carousel .carousel-indicators');
+  if (!inner || !indicators) return;
+
+  // Fisher-Yates shuffle of .item children (runs once per page load)
+  var items = Array.prototype.slice.call(inner.children);
+  for (var i = items.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = items[i]; items[i] = items[j]; items[j] = tmp;
+  }
+
+  // Reattach in shuffled order, assign active to first, rebuild indicators
+  indicators.innerHTML = '';
+  items.forEach(function (el, idx) {
+    el.classList.remove('active');
+    if (idx === 0) el.classList.add('active');
+    inner.appendChild(el);
+    var li = document.createElement('li');
+    li.setAttribute('data-target', '#carousel');
+    li.setAttribute('data-slide-to', String(idx));
+    if (idx === 0) li.className = 'active';
+    indicators.appendChild(li);
+  });
+})();
+</script>
 
 We are a research group in the Siebel School of Computing and Data Science at the University of Illinois Urbana-Champaign. 
 The ConvAI@UIUC Lab was co-founded by Prof. Dilek Hakkani-Tür and Prof. Gokhan Tur in 2024, when they joined academia after 20+ years of research in industry. Our <A HREF="https://uiuc-conversational-ai-lab.github.io/team">team</A> currently includes 10 PhD students and 3 MSc students. Our work focuses on conversational agents, large language models, reasoning, evaluation, and persuasion. 

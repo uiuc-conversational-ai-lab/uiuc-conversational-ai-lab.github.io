@@ -66,7 +66,9 @@ permalink: /publications/
 
 {% endfor %} -->
 
-(&#42; indicates equal contribution)
+<p class="pub-note">&#42; indicates equal contribution</p>
+
+<div class="pub-list" markdown="1">
 
 ## Preprints
 
@@ -87,3 +89,5 @@ permalink: /publications/
 <em>{{ publi.authors }}</em><br />
 {{ publi.link.display }}
 {% endfor %}
+
+</div>

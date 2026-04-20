@@ -1,0 +1,44 @@
+name: Refresh tweets
+
+# Runs whenever _data/featured_tweets.yml (or the fetch script) changes.
+# Fetches tweet data from X's public oEmbed + syndication endpoints and
+# commits the regenerated _data/tweets_rendered.yml back to the branch.
+# This lets maintainers add/remove tweets entirely from the GitHub web
+# editor — no local Ruby/Python setup needed.
+
+on:
+  push:
+    paths:
+      - '_data/featured_tweets.yml'
+      - 'scripts/fetch_tweets.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch tweet data
+        run: python3 scripts/fetch_tweets.py
+
+      - name: Commit regenerated file
+        run: |
+          if git diff --quiet _data/tweets_rendered.yml; then
+            echo "No changes to tweets_rendered.yml."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/tweets_rendered.yml
+          git commit -m "chore: refresh tweets_rendered.yml"
+          git push

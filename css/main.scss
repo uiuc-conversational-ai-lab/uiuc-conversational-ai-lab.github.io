@@ -3,9 +3,9 @@
     
 @import "bootstrap";
 
-img { margin-bottom: 24px; 
-     margin-top: 17px; 
-    border-radius:2%;
+img { margin-bottom: 24px;
+     margin-top: 17px;
+     border-radius: 6px;
 }
 
 
@@ -43,7 +43,7 @@ firstp {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1000px; /* or 950px */
+  max-width: 1140px;
 }
 
 /* Home, News */
@@ -61,10 +61,148 @@ firstp {
 }
 
 /* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
-#picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
-#gridid .row { margin-bottom: 24px; }
+#homeid img { margin: 0; border-radius: 6px; box-shadow: none; }
+#picid img { margin: 6px 3px 60px 6px; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+
+/* Team member tiles */
+#gridid .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 8px;
+}
+#gridid .row > .col-sm-6 {
+    float: none;
+    position: relative;
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 22px 24px 66px;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    font-size: 14px;
+    line-height: 1.55;
+    color: #333;
+}
+#gridid .row > .col-sm-6:hover {
+    box-shadow: 0 10px 24px rgba(0,0,0,0.1);
+    border-color: #E84A27;
+    transform: translateY(-3px);
+}
+@media (max-width: 767px) {
+    #gridid .row > .col-sm-6 { width: calc(100% - 20px); }
+}
+
+/* Avatar — centered at top */
+#gridid .col-sm-6 img,
+#gridid .col-sm-6 img.img-responsive {
+    float: none !important;
+    display: block;
+    width: 128px !important;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 4px auto 12px !important;
+    box-shadow: 0 6px 18px rgba(19,41,75,0.16);
+    border: 4px solid #fff;
+    outline: 1px solid #e8e8e8;
+}
+
+/* Image wrapper paragraph */
+#gridid .col-sm-6 > p:first-of-type {
+    margin: 0;
+    text-align: center;
+}
+
+/* Name — centered below avatar */
+#gridid .col-sm-6 h4 {
+    margin: 0 0 6px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+}
+#gridid .col-sm-6 h4 a { color: #13294B; }
+#gridid .col-sm-6 h4 a:hover { color: #E84A27; text-decoration: none; }
+
+/* Role pill — centered, only renders when present */
+#gridid .col-sm-6 > p:has(> i) {
+    margin: 0 0 14px 0;
+    text-align: center;
+    line-height: 1.2;
+}
+#gridid .col-sm-6 > p > i {
+    display: inline-block;
+    color: #B03010;
+    background: rgba(232,74,39,0.10);
+    font-style: normal;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+/* Info paragraphs — every content p that isn't image/role/email */
+#gridid .col-sm-6 > p:not(:has(> img)):not(:has(> i)):not(:has(> a[href^="mailto:"])):not(:last-of-type) {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #333;
+    margin: 0 0 7px 0;
+    padding-left: 14px;
+    position: relative;
+}
+#gridid .col-sm-6 > p:not(:has(> img)):not(:has(> i)):not(:has(> a[href^="mailto:"])):not(:last-of-type)::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    background: #E84A27;
+    border-radius: 50%;
+    opacity: 0.75;
+}
+
+
+/* Email — pinned footer bar */
+#gridid .col-sm-6 > p:last-of-type {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    bottom: 0;
+    margin: 0;
+    padding: 12px 0 16px;
+    border-top: 1px solid #ececec;
+    font-size: 13px;
+    background: #fff;
+}
+#gridid .col-sm-6 > p:last-of-type a[href^="mailto:"] {
+    color: #13294B;
+    font-weight: 600;
+    word-break: break-all;
+    display: inline-block;
+    padding-left: 22px;
+    position: relative;
+}
+#gridid .col-sm-6 > p:last-of-type a[href^="mailto:"]::before {
+    content: "\2709";  /* ✉ */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #E84A27;
+    font-size: 14px;
+    line-height: 1.3;
+}
+#gridid .col-sm-6 > p:last-of-type a[href^="mailto:"]:hover {
+    color: #E84A27;
+    text-decoration: none;
+}
 
 
 /* Grid overrides */
@@ -84,10 +222,1005 @@ firstp {
 /* Carusel */
 
 .carousel {
-    border-radius: 3px 3px 3px 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 24px 0 32px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.carousel img { margin: 0; border-radius: 0; width: 100%; }
+.carousel-indicators li { border-color: #fff; }
+.carousel-indicators .active { background: #E84A27; border-color: #E84A27; }
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+    background: transparent;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    width: 10%;
+    text-shadow: none;
+}
+.carousel:hover .carousel-control.left,
+.carousel:hover .carousel-control.right { opacity: 1; }
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+    position: absolute;
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    margin-top: -22px;
+    line-height: 44px;
+    background: rgba(19,41,75,0.78);
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: none;
+    transition: background 0.15s ease;
+}
+.carousel-control .glyphicon-chevron-left { left: 16px; margin-left: 0; }
+.carousel-control .glyphicon-chevron-right { right: 16px; margin-right: 0; }
+.carousel-control:hover .glyphicon-chevron-left,
+.carousel-control:hover .glyphicon-chevron-right { background: #E84A27; }
+
+/* Typography polish */
+body { font-weight: 400; letter-spacing: 0.01em; }
+h1, h2, h3, h4, h5 { color: #13294B; font-weight: 600; letter-spacing: -0.01em; }
+h1 { font-weight: 700; }
+a { color: #E84A27; }
+a:hover, a:focus { color: #13294B; text-decoration: underline; }
+
+/* News sidebar (scoped to #newsid so it doesn't leak to publications) */
+#newsid .well {
+    background: #fff;
+    border: none;
+    border-left: 4px solid #E84A27;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    border-radius: 0 6px 6px 0;
+    padding: 20px 22px;
+}
+#newsid .well h4:first-child {
+    margin-top: 0;
+    color: #13294B;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+#newsid .well p {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+#newsid .well p:last-of-type { border-bottom: none; }
+#newsid .well > h4:last-child {
+    margin-top: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    border: none;
+    padding: 0;
+}
+#newsid .well > h4:last-child a { color: #E84A27; font-size: 13px; }
+#newsid .well > h4:last-child a:hover { color: #13294B; }
+
+/* Equal-height home row: make sidebar match main column height
+   (only applies to the home page, which is the only row with #newsid) */
+@media (min-width: 768px) {
+    .row:has(> #newsid) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .row:has(> #newsid) > #newsid,
+    .row:has(> #newsid) > #homeid {
+        display: flex;
+        flex-direction: column;
+    }
+    #newsid > .well.tweet-feed {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+    }
+    /* Push the follow panel to the bottom of the sidebar */
+    #newsid .tweet-fallback--compact {
+        margin-top: auto;
+    }
+}
+
+/* Tweet feed container — X embed replaces news items */
+#newsid .well.tweet-feed {
+    padding: 18px 18px 14px;
+}
+#newsid .tweet-feed .twitter-timeline {
+    display: block;
+    width: 100% !important;
+    margin: 8px 0 4px;
+}
+#newsid .tweet-feed iframe {
+    border-radius: 6px !important;
+    width: 100% !important;
+}
+/* Hide the raw anchor text; widgets.js swaps it with an iframe once ready.
+   If it never resolves, the fallback card above stays visible. */
+#newsid .tweet-feed a.twitter-timeline:not([data-twttr-rendered]) {
+    display: none;
+}
+#newsid .tweet-feed a.twitter-timeline[data-twttr-rendered="true"] ~ .tweet-fallback,
+#newsid .tweet-feed iframe ~ .tweet-fallback {
+    display: none;
+}
+#newsid .tweet-feed:has(iframe) .tweet-fallback {
+    display: none;
+}
+
+/* Fallback card: shown when widgets.js fails or is blocked */
+#newsid .tweet-fallback {
+    padding: 18px 16px;
+    background: linear-gradient(135deg, #13294B 0%, #1e3a66 100%);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+#newsid .tweet-fallback-head {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+#newsid .tweet-handle {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+#newsid .tweet-platform {
+    color: #9fb5d4;
+    font-size: 12px;
+    margin-left: 6px;
+    font-weight: 500;
+}
+#newsid .tweet-fallback-body {
+    color: #d8e0ee;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 6px 0 14px;
+    border: none;
+    padding: 0;
+}
+#newsid .tweet-follow-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #E84A27;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 6px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: background 0.15s ease, transform 0.15s ease;
+}
+#newsid .tweet-follow-btn:hover {
+    background: #fff;
+    color: #13294B;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+/* Stack of single-tweet embeds */
+#newsid .tweet-embeds {
+    margin: 4px 0 10px;
+}
+#newsid .tweet-embeds .twitter-tweet {
+    margin: 0 0 12px !important;
+}
+
+/* Sidebar tweets — fit as many as the left column allows.
+   All tweets render; JS hides those that overflow the flex container. */
+#newsid .tweet-embeds {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: hidden;
+    position: relative;
+}
+#newsid .tweet-card {
+    padding: 8px 0;
+}
+#newsid .tweet-card:first-child { padding-top: 2px; }
+#newsid .tweet-card.tweet-card--hidden { display: none; }
+#newsid .tweet-card--repost {
+    padding-left: 0;
+    border-left: none;
+}
+#newsid .tweet-head {
+    font-size: 12px;
+    margin-bottom: 2px;
+    gap: 5px;
+}
+#newsid .tweet-body {
+    font-size: 12.5px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#newsid .tweet-readmore {
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+/* Tweet card — clean feed item.
+   Cards flow as a quiet list separated by hairline rules.
+   Reposts are indicated only by an inline ↻ glyph in the header. */
+.tweet-card {
+    position: relative;
+    padding: 12px 0;
+    margin: 0;
+    border-top: 1px solid #ececec;
+}
+.tweet-card:first-child { border-top: none; padding-top: 4px; }
+
+.tweet-head {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-bottom: 4px;
+    font-size: 13px;
+    line-height: 1.2;
+}
+.tweet-repost-glyph {
+    color: #E84A27;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    cursor: help;
+}
+.tweet-author {
+    color: #13294B;
+    font-weight: 700;
+    text-decoration: none;
+}
+.tweet-author:hover { color: #E84A27; text-decoration: none; }
+.tweet-sep { color: #c0c4cc; font-weight: 400; }
+.tweet-date {
+    color: #6a7078;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.tweet-date:hover { color: #13294B; text-decoration: underline; }
+
+.tweet-body {
+    font-size: 14px;
+    line-height: 1.55;
+    color: #1f2328;
+    margin: 0;
+}
+.tweet-readmore {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #E84A27;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+}
+.tweet-readmore:hover {
+    color: #13294B;
+    text-decoration: underline;
+}
+.tweet-body a {
+    color: #1d9bf0;
+    font-weight: 500;
+    text-decoration: none;
+    word-break: break-word;
+}
+.tweet-body a:hover { text-decoration: underline; }
+/* Mention links (@handle) render blue + bold */
+.tweet-body a[href*="twitter.com/"]:not([href*="/status/"]) {
+    color: #13294B;
+    font-weight: 600;
+}
+.tweet-body a[href*="twitter.com/"]:not([href*="/status/"]):hover {
+    color: #E84A27;
+}
+/* Compact follow card pinned at the TOP of the sidebar */
+#newsid .tweet-follow-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 12px;
+    background: #13294B;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    flex: 0 0 auto;
+}
+#newsid .tweet-follow-left { min-width: 0; }
+#newsid .tweet-follow-handle {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+}
+#newsid .tweet-follow-sub {
+    font-size: 11px;
+    color: #9fb5d4;
+    line-height: 1.3;
+    margin-top: 1px;
+}
+#newsid .tweet-follow-btn {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #E84A27;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    flex: 0 0 auto;
+    transition: background 0.15s ease, transform 0.15s ease;
+}
+#newsid .tweet-follow-btn:hover {
+    background: #fff;
+    color: #13294B;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+/* Archive link below the feed */
+#newsid .tweet-archive-link {
+    display: block;
+    margin-top: 14px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #E84A27;
+    text-decoration: none;
+    border-top: 1px solid #ececec;
+    flex: 0 0 auto;
+}
+#newsid .tweet-archive-link:hover { color: #13294B; text-decoration: underline; }
+
+/* Updates page — elegant archive feed */
+.updates-note {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 28px;
+    max-width: 680px;
+}
+.updates-note a { font-weight: 600; }
+.updates-empty {
+    padding: 40px 24px;
+    text-align: center;
+    background: #fafafa;
+    border: 1px dashed #ddd;
+    border-radius: 10px;
+    color: #666;
+    max-width: 620px;
+}
+
+.updates-feed {
+    max-width: 640px;
+    margin: 0;
+}
+
+.update-card {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 14px;
+    padding: 22px 24px 18px;
+    margin: 0 0 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    transition: box-shadow 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+}
+.update-card:hover {
+    box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+    border-color: #dde3eb;
+    transform: translateY(-2px);
+}
+.update-card--repost {
+    border-left: 3px solid #E84A27;
+}
+
+.update-repost-banner {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B03010;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #f0d0c4;
+}
+.update-repost-banner a {
+    color: #B03010;
+    font-weight: 700;
+}
+.update-repost-banner a:hover { color: #13294B; text-decoration: underline; }
+
+.update-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.update-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: 0 0 44px;
+    background: #f0f2f5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    margin: 0 !important;
+}
+.update-avatar--placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #13294B;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.update-meta {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+}
+.update-author {
+    font-size: 15px;
+    font-weight: 700;
+    color: #13294B;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.update-author:hover { color: #E84A27; text-decoration: none; }
+.update-handle {
+    font-size: 12.5px;
+    color: #6a7078;
+    text-decoration: none;
+    margin-top: 2px;
+}
+.update-handle:hover { color: #1d9bf0; text-decoration: none; }
+.update-date {
+    font-size: 12.5px;
+    color: #6a7078;
+    text-decoration: none;
+    white-space: nowrap;
+    align-self: flex-start;
+    padding-top: 4px;
+}
+.update-date:hover { color: #13294B; text-decoration: underline; }
+
+.update-body {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #14181d;
+    margin: 0 0 14px;
+    word-wrap: break-word;
+}
+.update-body a {
+    color: #1d9bf0;
+    font-weight: 500;
+    text-decoration: none;
+    word-break: break-word;
+}
+.update-body a:hover { text-decoration: underline; }
+.update-body a[href*="twitter.com/"]:not([href*="/status/"]) {
+    color: #13294B;
+    font-weight: 600;
+}
+.update-body a[href*="twitter.com/"]:not([href*="/status/"]):hover {
+    color: #E84A27;
+}
+.update-body br + br { display: block; content: ""; margin-top: 6px; }
+
+.update-media {
+    display: grid;
+    gap: 4px;
+    margin: 14px 0 8px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+}
+.update-media--1 { grid-template-columns: 1fr; }
+.update-media--2 { grid-template-columns: 1fr 1fr; }
+.update-media--3 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+.update-media--3 a:first-child { grid-row: span 2; }
+.update-media--4 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+.update-media a {
+    display: block;
+    position: relative;
+    line-height: 0;
+    background: #f0f2f5;
+}
+.update-media a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0);
+    transition: background 0.15s ease;
+}
+.update-media a:hover::after { background: rgba(0,0,0,0.08); }
+.update-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 360px;
+    display: block;
+    margin: 0 !important;
+    border-radius: 0;
+}
+.update-media--1 img { max-height: 500px; }
+
+.update-foot {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    border-top: 1px solid #f0f2f5;
+    margin-top: 6px;
+}
+.update-view {
+    font-size: 13px;
+    font-weight: 600;
+    color: #E84A27;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    padding: 4px 10px;
+    border-radius: 5px;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+.update-view:hover {
+    background: #E84A27;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Deadlines page — embedded Google Calendar */
+.deadlines-note {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 22px;
+    max-width: 760px;
+}
+.calendar-embed {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+.calendar-embed iframe {
+    display: block;
+    width: 100%;
+    height: 720px;
+    border: 0;
+}
+@media (max-width: 767px) {
+    .calendar-embed iframe { height: 560px; }
+}
+.deadlines-cta {
+    text-align: right;
+    margin: 8px 4px 32px;
+}
+.deadlines-cta a {
+    font-size: 13px;
+    font-weight: 600;
+    color: #E84A27;
+}
+.deadlines-cta a:hover { color: #13294B; text-decoration: underline; }
+
+/* Projects page cards */
+.project-list {
+    counter-reset: project;
+    margin-top: 8px;
+}
+.project-list h3 {
+    counter-increment: project;
+    position: relative;
+    background: #fff;
+    color: #13294B;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0;
+    margin-top: 0;
+    padding: 18px 22px 18px 68px;
+    border: 1px solid #ececec;
+    border-left: 4px solid #E84A27;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+}
+.project-list h3::before {
+    content: counter(project, decimal-leading-zero);
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #E84A27;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    opacity: 0.9;
+}
+.project-list p {
+    background: #fff;
+    margin: 0;
+    padding: 6px 24px 6px 24px;
+    border: 1px solid #ececec;
+    border-top: none;
+    border-left: 4px solid #E84A27;
+    border-radius: 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+}
+.project-list h3 + p { padding-top: 14px; }
+
+/* Close the card at the last paragraph of each project */
+.project-list p:not(:has(+ p)) {
+    padding-bottom: 16px;
+    border-radius: 0 0 10px 10px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+/* h3 with no following p renders as a self-contained card */
+.project-list h3:not(:has(+ p)) {
+    border-radius: 10px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+/* Publications page */
+.pub-note {
+    font-size: 12px;
+    color: #888;
+    font-style: italic;
+    margin: -10px 0 4px;
+}
+.pub-list h2 {
+    display: inline-block;
+    margin-top: 36px;
+    margin-bottom: 4px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #13294B;
+    border: none;
+    border-radius: 4px;
+}
+.pub-list h2 + ol,
+.pub-list ol {
+    list-style: none;
+    counter-reset: pub;
+    padding: 0;
+    margin: 14px 0 0;
+}
+.pub-list ol li {
+    counter-increment: pub;
+    position: relative;
+    padding: 16px 18px 18px 58px;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-left: 3px solid transparent;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+.pub-list ol li:hover {
+    border-left-color: #E84A27;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    transform: translateX(2px);
+}
+.pub-list ol li::before {
+    content: counter(pub, decimal-leading-zero);
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #E84A27;
+    letter-spacing: 0.02em;
+    font-variant-numeric: tabular-nums;
+    opacity: 0.85;
+    background: rgba(232,74,39,0.08);
+    padding: 3px 8px;
+    border-radius: 4px;
+    line-height: 1.2;
+    min-width: 32px;
+    text-align: center;
+}
+.pub-list ol li p {
+    margin: 0;
+    line-height: 1.55;
+    color: #333;
+    font-size: 14.5px;
+}
+.pub-list ol li a {
+    color: #13294B;
+    font-weight: 700;
+    text-decoration: none;
+}
+.pub-list ol li a strong {
+    color: inherit;
+    font-weight: inherit;
+    font-size: 15px;
+    line-height: 1.35;
+}
+.pub-list ol li a:hover {
+    color: #E84A27;
+    text-decoration: none;
+}
+.pub-list ol li em {
+    display: inline-block;
+    margin-top: 4px;
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.5;
+}
+.pub-list ol li br + em { margin-top: 6px; }
+.pub-list ol li br:last-of-type + em { margin-top: 6px; }
+/* Venue — the plain text after the last <br /> */
+.pub-list ol li p {
+    position: relative;
+}
+.pub-list ol li p::after {
+    /* no-op — venue sits as plain text; styled via siblings */
+}
+
+/* Final "... and more." h3 — plain continuation note, no card */
+.project-list > h3:last-of-type {
+    counter-increment: none;
+    background: transparent;
+    border: none;
+    border-left: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 14px 0 6px;
+    margin: 10px 0 0;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    color: #888;
+    text-align: center;
+}
+.project-list > h3:last-of-type::before { content: none; }
+
+/* Labels (Team:, Description:) as small pills */
+.project-list p > b:first-child {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B03010;
+    background: rgba(232,74,39,0.10);
+    padding: 3px 9px;
+    border-radius: 4px;
+    margin-right: 10px;
+    vertical-align: baseline;
+    line-height: 1.4;
+}
+.project-list p a { font-weight: 600; }
+.project-list p a:hover { text-decoration: underline; }
+
+/* Navbar */
+.navbar-default {
+    background: #13294B;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+}
+.navbar-brand,
+.navbar-default .navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #fff !important;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #E84A27 !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #e8edf3;
+    font-weight: 500;
+    padding-left: 14px;
+    padding-right: 14px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    border-bottom: 2px solid transparent;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background: transparent;
+    border-bottom-color: #E84A27;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: transparent;
+    border-bottom-color: #E84A27;
+}
+.navbar-default .navbar-toggle {
+    border-color: rgba(255,255,255,0.3);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: rgba(255,255,255,0.08);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background: #fff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: rgba(255,255,255,0.1);
+}
+
+/* Content typography */
+#homeid, .col-sm-12, .col-sm-8 {
+    p { line-height: 1.7; font-size: 16px; color: #333; margin-bottom: 18px; }
+}
+#homeid > p:first-of-type,
+.col-sm-12 > p:first-of-type {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #222;
+}
+
+/* Section heading accents */
+h1 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    position: relative;
+    padding-bottom: 14px;
+}
+h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 56px;
+    height: 3px;
+    background: #E84A27;
+    border-radius: 2px;
+}
+h2 {
+    margin-top: 40px;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e6e6e6;
+}
+h3 {
+    margin-top: 32px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    color: #13294B;
+}
+h4 { margin-top: 20px; color: #13294B; }
+
+pubtit {
+    display: block;
+    font-weight: 700;
+    color: #13294B;
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+
+/* Publications list readability */
+.col-sm-12 > p > strong > a,
+.col-sm-12 > ol a,
+#homeid a { font-weight: 600; }
+
+/* Publications paper cards (inside #gridid .col-sm-6 .well) */
+#gridid .col-sm-6 .well {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    padding: 22px 24px;
+    margin-bottom: 0;
+    transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+#gridid .col-sm-6 .well:hover {
+    box-shadow: 0 10px 24px rgba(0,0,0,0.09);
+    transform: translateY(-2px);
+}
+#gridid .col-sm-6 .well pubtit {
+    display: block;
+    color: #13294B;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 10px;
+    padding-right: 8px;
+}
+#gridid .col-sm-6 .well img {
+    width: 110px !important;
+    height: auto;
+    border-radius: 8px !important;
+    margin: 4px 16px 8px 0 !important;
+    float: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+#gridid .col-sm-6 .well p {
+    font-size: 14px;
+    line-height: 1.55;
+    margin-bottom: 8px;
+    color: #444;
+}
+#gridid .col-sm-6 .well em {
+    color: #666;
+    font-size: 13.5px;
+}
+#gridid .col-sm-6 .well strong a {
+    color: #E84A27;
+}
+#gridid .col-sm-6 .well p.text-danger strong { color: #c0392b; font-size: 13px; }
+
+/* Preprints / Accepted numbered list */
+#gridid ol, #gridid ul {
+    padding-left: 20px;
+}
+#gridid > ol > li,
+#gridid > p {
+    margin-bottom: 12px;
+    line-height: 1.55;
+}
+
+/* Footer polish */
+#footer .panel-footer {
+    background: #13294B;
+    color: #cfd6e0;
+    border: none;
+    padding: 36px 0 28px;
+    margin-top: 48px;
+}
+#footer a { color: #ffb79a; }
+#footer a:hover { color: #fff; text-decoration: underline; }
+#footer .col-sm-4 { padding-top: 8px; padding-bottom: 8px; }
+#footer img {
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: 6px 8px 6px 0;
+    box-shadow: none;
+}
+
+/* Body background subtle tint */
+body {
+    background: #fafafa;
+}
+#homeid, #gridid, #picid, #newsid {
+    background: #fff;
+    border-radius: 8px;
 }
 

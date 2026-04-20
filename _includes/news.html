@@ -1,11 +1,59 @@
+<div class="well tweet-feed">
 
-<div class="well">
-<h4>News</h4>
+{% assign has_tweets = false %}
+{% for t in site.data.tweets_rendered %}{% if t.body %}{% assign has_tweets = true %}{% endif %}{% endfor %}
 
-{% for article in site.data.news limit:6 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
-{% endfor %}
+<div class="tweet-follow-card">
+  <div class="tweet-follow-left">
+    <div class="tweet-follow-handle">@convai_uiuc</div>
+    <div class="tweet-follow-sub">Latest updates from our lab on X</div>
+  </div>
+  <a class="tweet-follow-btn" href="https://x.com/convai_uiuc" target="_blank" rel="noopener">Follow</a>
+</div>
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/news/">... see all News</a></h4>
+{% if has_tweets %}
+<div class="tweet-embeds">
+  {% assign shown = 0 %}
+  {% for t in site.data.tweets_rendered %}{% if t.body and shown < 12 %}
+  <article class="tweet-card{% if t.is_repost %} tweet-card--repost{% endif %}">
+    <header class="tweet-head">
+      {% if t.is_repost %}<span class="tweet-repost-glyph" title="Reposted by @convai_uiuc">↻</span>{% endif %}
+      <a href="{{ t.author_url }}" class="tweet-author" target="_blank" rel="noopener">{{ t.author }}</a>
+      <span class="tweet-sep">·</span>
+      <a href="{{ t.url }}" class="tweet-date" target="_blank" rel="noopener">{{ t.date }}</a>
+    </header>
+    <div class="tweet-body">{{ t.body }}</div>
+    <a class="tweet-readmore" href="{{ t.url }}" target="_blank" rel="noopener">Read more →</a>
+  </article>
+  {% assign shown = shown | plus: 1 %}
+  {% endif %}{% endfor %}
+</div>
+<a class="tweet-archive-link" href="{{ site.url }}{{ site.baseurl }}/updates">See all past updates →</a>
+<script>
+(function () {
+  function fit() {
+    var box = document.querySelector('#newsid .tweet-embeds');
+    if (!box) return;
+    var cards = box.querySelectorAll('.tweet-card');
+    cards.forEach(function (c) { c.classList.remove('tweet-card--hidden'); });
+    var boxBottom = box.getBoundingClientRect().bottom;
+    cards.forEach(function (c) {
+      if (c.getBoundingClientRect().bottom > boxBottom) {
+        c.classList.add('tweet-card--hidden');
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', fit);
+  } else {
+    fit();
+  }
+  window.addEventListener('resize', function () {
+    clearTimeout(window.__tweetFitT);
+    window.__tweetFitT = setTimeout(fit, 80);
+  });
+})();
+</script>
+{% endif %}
 
-    </div>
+</div>

@@ -8,6 +8,8 @@ permalink: /projects/
 
 # Current Projects
 
+<div class="project-list" markdown="1">
+
 ### DARPA Friction for Accountability in Conversational Transactions (FACT). ###
 
 <b>Team:</b> UIUC (Lead), Northeastern University, USC
@@ -34,3 +36,5 @@ permalink: /projects/
 ### Upcomping Project: CEDAR: Characterizing, Explaining, and Detecting Risks Against Language and Multimodal Models. ###
 
 ### ... and more.
+
+</div>

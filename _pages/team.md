@@ -24,7 +24,7 @@ permalink: /team
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="33%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
-  <i>{{ member.info }} </i> 
+  {% assign _info = member.info | default: "" | strip %}{% if _info != "" %}<i>{{ _info }}</i>{% endif %}
 
   {% if member.number_educ == 1 %}
   {{ member.education1 }}
@@ -77,7 +77,7 @@ permalink: /team
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="33%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
-  <i>{{ member.info }} </i> 
+  {% assign _info = member.info | default: "" | strip %}{% if _info != "" %}<i>{{ _info }}</i>{% endif %}
 
   {% if member.number_educ == 1 %}
   {{ member.education1 }}
@@ -133,7 +133,7 @@ permalink: /team
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="33%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
-  <i>{{ member.info }} </i> 
+  {% assign _info = member.info | default: "" | strip %}{% if _info != "" %}<i>{{ _info }}</i>{% endif %}
 
   {% if member.number_educ == 1 %}
   {{ member.education1 }}
@@ -187,7 +187,7 @@ permalink: /team
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="33%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
-  <i>{{ member.info }} </i> 
+  {% assign _info = member.info | default: "" | strip %}{% if _info != "" %}<i>{{ _info }}</i>{% endif %}
 
   {% if member.number_educ == 1 %}
   {{ member.education1 }}
@@ -239,7 +239,7 @@ permalink: /team
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="33%" style="float: left" />
   <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
-  <i>{{ member.info }} </i> 
+  {% assign _info = member.info | default: "" | strip %}{% if _info != "" %}<i>{{ _info }}</i>{% endif %}
 
   {% if member.number_educ == 1 %}
   {{ member.education1 }}

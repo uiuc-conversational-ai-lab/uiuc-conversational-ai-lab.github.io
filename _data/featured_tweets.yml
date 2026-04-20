@@ -1,0 +1,19 @@
+# Featured tweets shown on the home sidebar and /updates/ page.
+# Newest first. Keep the list capped at ~15 entries — trim the oldest
+# when adding new ones. See README.md for the bulk-extraction snippet.
+
+- url: https://x.com/radamihalcea/status/2044111611162435636
+- url: https://x.com/convai_uiuc/status/2044086476074279243
+- url: https://x.com/emrecanacikgoz/status/2041205215978807304
+- url: https://x.com/ShuhaibMehri/status/2036505260882337982
+- url: https://x.com/nbbozdag/status/2036470457138893103
+- url: https://x.com/ShuhaibMehri/status/2034417399332778442
+- url: https://x.com/priyanka_karg/status/2034274762201968929
+- url: https://x.com/daniel_mac8/status/2032872265222693214
+- url: https://x.com/tur_gokhan/status/2028909764063727806
+- url: https://x.com/emrecanacikgoz/status/2028907025703317791
+- url: https://x.com/emrecanacikgoz/status/2028906997152924096
+- url: https://x.com/tur_gokhan/status/2028268720989069777
+- url: https://x.com/convai_uiuc/status/2026046897773805927
+- url: https://x.com/takyoung_kim/status/2025320399903326277
+- url: https://x.com/ShuhaibMehri/status/2022050006320959503
