@@ -1,3 +1,45 @@
+- title: "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction"
+  authors: Vardhan Dongre, Joseph Hsieh, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2605.12922
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "AcquisitionSynthesis: Targeted Data Generation using Acquisition Functions"
+  authors: Ishika Agarwal, Sofia Stoica, Emre Can Acikgoz, Pradeep Natarajan, Mahdi Namazifar, Jiaqi Ma, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2605.13149
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Embodied Multi-Agent Coordination by Aligning World Models Through Dialogue"
+  authors: Vardhan Dongre, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2605.12920
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Measuring and Mitigating the Distributional Gap Between Real and Simulated User Behaviors"
+  authors: Shuhaib Mehri, Philippe Laban, Sumuk Shashidhar, Marwa Abdulhai, Sergey Levine, Michel Galley, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2605.07847
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Few-Shot Accent Synthesis for ASR with LLM-Guided Phoneme Editing"
+  authors: Yurii Halychanskyi, Nimet Beyza Bozdag, Mark Hasegawa-Johnson, Dilek Hakkani-Tür, Volodymyr Kindratenko
+  link:
+    url: https://arxiv.org/abs/2604.27273
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "PSI-Bench: Towards Clinically Grounded and Interpretable Evaluation of Depression Patient Simulators"
+  authors: Nguyen Khoi Hoang, Shuhaib Mehri, Tse-An Hsu, Yi-Jyun Sun, Quynh Xuan Nguyen Truong, Khoa D Doan, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2604.25840
+    display: Preprint. 2026.
+  highlight: 1
+
 - title: "Too Polite to Disagree: Understanding Sycophancy Propagation in Multi-Agent Systems"
   authors: Vira Kasprova, Amruta Parulekar, Abdulrahman AlRabah, Krishna Agaram, Ritwik Garg, Sagar Jha, Nimet Beyza Bozdag, Dilek Hakkani-Tur
   link:
@@ -26,15 +68,6 @@
     url: https://arxiv.org/abs/2602.21320
     display: Preprint. 2026.
   highlight: 1
-
-
-- title: "Do We Need Adam? Surprisingly Strong and Sparse Reinforcement Learning with SGD in LLMs"
-  authors: Sagnik Mukherjee, Lifan Yuan, Pavan Jayasinha, Dilek Hakkani-Tür, Hao Peng
-  link:
-    url: https://arxiv.org/abs/2602.07729
-    display: Preprint. 2026.
-  highlight: 1
-
 
 - title: "ATOD: An Evaluation Framework and Benchmark for Agentic Task-Oriented Dialogue System"
   authors: Yifei Zhang, Hooshang Nayyeri, Rinat Khaziev, Emine Yilmaz, Gokhan Tur, Dilek Hakkani-Tür, Hari Thadakamalla

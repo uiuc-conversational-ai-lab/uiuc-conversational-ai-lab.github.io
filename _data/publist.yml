@@ -1,3 +1,17 @@
+- title: "AURA: A Diagnostic Framework for Tracking User Satisfaction of Interactive Planning Agents"
+  authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
+  link:
+    url: https://doi.org/10.1109/TASLPRO.2026.3695295
+    display: IEEE Transactions on Audio, Speech and Language Processing (TASLP). 2026.
+  highlight: 1
+
+- title: "Do We Need Adam? Surprisingly Strong and Sparse Reinforcement Learning with SGD in LLMs"
+  authors: Sagnik Mukherjee, Lifan Yuan, Pavan Jayasinha, Dilek Hakkani-Tür, Hao Peng
+  link:
+    url: https://arxiv.org/abs/2602.07729
+    display: International Conference on Machine Learning (ICML, Spotlight). 2026.
+  highlight: 1
+
 - title: "DialDefer: A Framework for Detecting and Mitigating LLM Dialogic Deference"
   authors: Parisa Rabbani, Priyam Sahoo, Ruben Mathew, Aishee Mondal, Harshita Ketharaman, Nimet Beyza Bozdag, Dilek Hakkani-Tür
   link:
@@ -22,7 +36,7 @@
 - title: "From Documents to Segments: A Contextual Reformulation for Topic Assignment"
   authors: Hoonsang Yoon&#42;, Takyoung Kim&#42;, Wonkee Lee, Ilmin Cho, Dilek Hakkani-Tür, Stanley Jungkyu Choi.
   link:
-    # url: 
+    url: https://arxiv.org/abs/2605.17714
     display: Annual Meeting of the Association for Computational Linguistics (ACL, Findings). 2026.
   highlight: 1
 
@@ -102,13 +116,6 @@
   authors: Nimet Beyza Bozdag, Shuhaib Mehri, Gokhan Tur, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2503.01829
-    display: Neural Information Processing Systems (NeurIPS) Workshop on Multi-Turn Interactions in Large Language Models. 2025.
-  highlight: 1
-
-- title: "AURA: A Diagnostic Framework for Tracking User Satisfaction of Interactive Planning Agents"
-  authors: Takyoung Kim&#42;, Janvijay Singh&#42;, Shuhaib Mehri&#42;, Emre Can Acikgoz, Sagnik Mukherjee, Nimet Beyza Bozdag, Sumuk Shashidhar, Gokhan Tur, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2505.01592
     display: Neural Information Processing Systems (NeurIPS) Workshop on Multi-Turn Interactions in Large Language Models. 2025.
   highlight: 1
 
