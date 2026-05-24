@@ -89,15 +89,12 @@
 - name: Takyoung Kim
   photo: takyoung-cropped.jpeg
   has_research_interests: 1
-  research_interests: Embodied & Spoken Dialogue
+  research_interests: Spoken Conversational AI
   has_hobbies: 0
   has_past_aff: 1
   past_aff: Amazon
   webpage: https://youngerous.github.io/ 
   email: tk30@illinois.edu
-  number_educ: 2
-  education1: MS Korea Univ.
-  education2: BS Sungkyunkwan Univ.
 
 - name: Vardhan Dongre
   photo: vardhan-cropped.jpeg
