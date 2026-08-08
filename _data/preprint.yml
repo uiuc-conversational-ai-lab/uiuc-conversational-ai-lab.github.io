@@ -1,3 +1,66 @@
+- title: "Reasoning Consensus: Structural Ensembling of LLM Reasoning via Weighted DAG Aggregation"
+  authors: Amruta Parulekar, Jinu Lee, Dilek Hakkani-Tür, Hari Sundaram
+  link:
+    url: https://arxiv.org/abs/2607.27783
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "PatientAgentBench: A Benchmark Framework for Evaluating Patient-Facing Health AI Agents"
+  authors: Korosh Vatanparvar, Ashutosh Joshi, Maria Xenochristou, Mohammad Abuzar Hashemi, Prasad Kasu, Deepak Bansal, Daniel Lopez-Martinez, Anchal Nema, Ramya Ganesan, Will Kimbrough, Alex Woody, Yadunandana Rao, Dilek Hakkani-Tur, Wilko Schulz-Mahlendorf
+  link:
+    url: https://arxiv.org/abs/2607.25485
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues"
+  authors: Takyoung Kim, Kang-wook Kim, Sang Hoon Woo, Julia Hirschberg, Gunhee Kim, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2607.26178
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "IMCBench: A benchmark for multimodal LLMs in Image-grounded Medical Conversations"
+  authors: Maria Xenochristou, Ashutosh Joshi, Korosh Vatanparvar, Mohammad Abuzar Hashemi, Prasad Kasu, Deepak Bansal, Anchal Nema, Nivedita Wadhwa, Prashams S Jain, Rebecca Abraham, Will Kimbrough, Dilek Hakkani-Tur, Wilko Schulz-Mahlendorf
+  link:
+    url: https://arxiv.org/abs/2606.28556
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems"
+  authors: Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, Xiaocheng Yang, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2606.22388
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Trajectory-Level Redirection Attacks on Vision-Language-Action Models"
+  authors: Gokul Puthumanaillam, Vardhan Dongre, Pranay Thangeda, Hooshang Nayyeri, Dilek Hakkani-Tür, Melkior Ornik
+  link:
+    url: https://arxiv.org/abs/2606.12978
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "ReasoningFlow: Discourse Structures for Understanding LLM Reasoning Traces"
+  authors: Jinu Lee, Shivam Agarwal, Amruta Parulekar, Siddarth Madala, Dilek Hakkani-Tur, Julia Hockenmaier
+  link:
+    url: https://arxiv.org/abs/2606.05402
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Measuring, Localizing, and Ablating Alignment Signatures in LLMs"
+  authors: Aniket Anand, Janvijay Singh, Zhewei Sun, Dilek Hakkani-Tür, Nick Feamster
+  link:
+    url: https://arxiv.org/abs/2605.30526
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models"
+  authors: Hyeonjeong Ha, Jeonghwan Kim, Cheng Qian, Jiayu Liu, William M. Campbell, Yue Wu, Yuji Zhang, Kathleen McKeown, Dilek Hakkani-Tur, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2605.28009
+    display: Preprint. 2026.
+  highlight: 1
+
 - title: "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction"
   authors: Vardhan Dongre, Joseph Hsieh, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Dilek Hakkani-Tür
   link:
@@ -12,13 +75,6 @@
     display: Preprint. 2026.
   highlight: 1
 
-- title: "Embodied Multi-Agent Coordination by Aligning World Models Through Dialogue"
-  authors: Vardhan Dongre, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2605.12920
-    display: Preprint. 2026.
-  highlight: 1
-
 - title: "Measuring and Mitigating the Distributional Gap Between Real and Simulated User Behaviors"
   authors: Shuhaib Mehri, Philippe Laban, Sumuk Shashidhar, Marwa Abdulhai, Sergey Levine, Michel Galley, Dilek Hakkani-Tür
   link:
@@ -26,24 +82,11 @@
     display: Preprint. 2026.
   highlight: 1
 
-- title: "Few-Shot Accent Synthesis for ASR with LLM-Guided Phoneme Editing"
-  authors: Yurii Halychanskyi, Nimet Beyza Bozdag, Mark Hasegawa-Johnson, Dilek Hakkani-Tür, Volodymyr Kindratenko
-  link:
-    url: https://arxiv.org/abs/2604.27273
-    display: Preprint. 2026.
-  highlight: 1
 
 - title: "PSI-Bench: Towards Clinically Grounded and Interpretable Evaluation of Depression Patient Simulators"
   authors: Nguyen Khoi Hoang, Shuhaib Mehri, Tse-An Hsu, Yi-Jyun Sun, Quynh Xuan Nguyen Truong, Khoa D Doan, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2604.25840
-    display: Preprint. 2026.
-  highlight: 1
-
-- title: "Too Polite to Disagree: Understanding Sycophancy Propagation in Multi-Agent Systems"
-  authors: Vira Kasprova, Amruta Parulekar, Abdulrahman AlRabah, Krishna Agaram, Ritwik Garg, Sagar Jha, Nimet Beyza Bozdag, Dilek Hakkani-Tur
-  link:
-    url: https://arxiv.org/abs/2604.02668
     display: Preprint. 2026.
   highlight: 1
 
