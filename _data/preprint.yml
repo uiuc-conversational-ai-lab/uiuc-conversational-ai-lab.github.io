@@ -1,3 +1,10 @@
+- title: "Sycophancy in Language Models: A Survey Across Behaviors and Topologies"
+  authors: Vira Kasprova, Jingrui He, Dilek Hakkani-Tür, and Volodymyr Kindratenko
+  link:
+    url: https://doi.org/10.5281/zenodo.21347167
+    display: Preprint. 2026.
+  highlight: 1
+
 - title: "Reasoning Consensus: Structural Ensembling of LLM Reasoning via Weighted DAG Aggregation"
   authors: Amruta Parulekar, Jinu Lee, Dilek Hakkani-Tür, Hari Sundaram
   link:
