@@ -1,3 +1,59 @@
+- title: "ReasoningFlow: Discourse Structures for Understanding LLM Reasoning Traces"
+  authors: Jinu Lee, Shivam Agarwal, Amruta Parulekar, Siddarth Madala, Dilek Hakkani-Tur, Julia Hockenmaier
+  link:
+    url: https://arxiv.org/abs/2606.05402
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  highlight: 1
+
+- title: "Measuring, Localizing, and Ablating Alignment Signatures in LLMs"
+  authors: Aniket Anand, Janvijay Singh, Zhewei Sun, Dilek Hakkani-Tür, Nick Feamster
+  link:
+    url: https://arxiv.org/abs/2605.30526
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  highlight: 1
+
+- title: "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems"
+  authors: Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, Xiaocheng Yang, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2606.22388
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  highlight: 1
+
+- title: "The Alignment Veto: How Safety Training Suppresses Cultural Knowledge in LLMs"
+  authors: Pardis Sadat Zahraei, Gokhan Tur, Dilek Hakkani-Tür, Ehsaneddin Asgari
+  link:
+    url: https://arxiv.org/abs/2510.13154
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  highlight: 1
+
+- title: "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues"
+  authors: Takyoung Kim, Kang-wook Kim, Sang Hoon Woo, Julia Hirschberg, Gunhee Kim, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2607.26178
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  highlight: 1
+
+- title: "MultiSessionCollab: Learning User Preferences Through Interaction for Long-Term Collaboration"
+  authors: Shuhaib Mehri, Priyanka Kargupta, Tal August, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.02702
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  highlight: 1
+
+- title: "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data"
+  authors: Emre Can Acikgoz, Cheng Qian, Jonas Hübotter, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
+  link:
+    url: https://arxiv.org/abs/2602.21320
+    display: Empirical Methods in Natural Language Processing (EMNLP, Findings). 2026.
+  highlight: 1
+
+- title: "A Rising Tide Lifts All Boats: MTQE Rewards for Idioms Improve General Translation Quality"
+  authors: Ishika Agarwal, Zhenlin He, Dhruva Patil, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2601.06307
+    display: Empirical Methods in Natural Language Processing (EMNLP, Findings). 2026.
+  highlight: 1
+
 - title: "MMJail: Compounded Multilingual and Multi-Turn Vulnerabilities in LLM Bias Resistance"
   authors: Anisha Rao, Takyoung Kim, Dilek Hakkani-Tür
   link:

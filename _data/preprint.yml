@@ -33,13 +33,6 @@
     display: Preprint. 2026.
   highlight: 1
 
-- title: "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues"
-  authors: Takyoung Kim, Kang-wook Kim, Sang Hoon Woo, Julia Hirschberg, Gunhee Kim, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2607.26178
-    display: Preprint. 2026.
-  highlight: 1
-
 - title: "IMCBench: A benchmark for multimodal LLMs in Image-grounded Medical Conversations"
   authors: Maria Xenochristou, Ashutosh Joshi, Korosh Vatanparvar, Mohammad Abuzar Hashemi, Prasad Kasu, Deepak Bansal, Anchal Nema, Nivedita Wadhwa, Prashams S Jain, Rebecca Abraham, Will Kimbrough, Dilek Hakkani-Tur, Wilko Schulz-Mahlendorf
   link:
@@ -47,31 +40,10 @@
     display: Preprint. 2026.
   highlight: 1
 
-- title: "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems"
-  authors: Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, Xiaocheng Yang, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2606.22388
-    display: Preprint. 2026.
-  highlight: 1
-
 - title: "Trajectory-Level Redirection Attacks on Vision-Language-Action Models"
   authors: Gokul Puthumanaillam, Vardhan Dongre, Pranay Thangeda, Hooshang Nayyeri, Dilek Hakkani-Tür, Melkior Ornik
   link:
     url: https://arxiv.org/abs/2606.12978
-    display: Preprint. 2026.
-  highlight: 1
-
-- title: "ReasoningFlow: Discourse Structures for Understanding LLM Reasoning Traces"
-  authors: Jinu Lee, Shivam Agarwal, Amruta Parulekar, Siddarth Madala, Dilek Hakkani-Tur, Julia Hockenmaier
-  link:
-    url: https://arxiv.org/abs/2606.05402
-    display: Preprint. 2026.
-  highlight: 1
-
-- title: "Measuring, Localizing, and Ablating Alignment Signatures in LLMs"
-  authors: Aniket Anand, Janvijay Singh, Zhewei Sun, Dilek Hakkani-Tür, Nick Feamster
-  link:
-    url: https://arxiv.org/abs/2605.30526
     display: Preprint. 2026.
   highlight: 1
 
@@ -126,32 +98,10 @@
     display: Preprint. 2026.
   highlight: 1
 
-- title: "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data"
-  authors: Emre Can Acikgoz, Cheng Qian, Jonas Hübotter, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
-  link:
-    url: https://arxiv.org/abs/2602.21320
-    display: Preprint. 2026.
-  highlight: 1
-
 - title: "ATOD: An Evaluation Framework and Benchmark for Agentic Task-Oriented Dialogue System"
   authors: Yifei Zhang, Hooshang Nayyeri, Rinat Khaziev, Emine Yilmaz, Gokhan Tur, Dilek Hakkani-Tür, Hari Thadakamalla
   link:
     url: https://arxiv.org/abs/2601.11854
-    display: Preprint. 2026.
-  highlight: 1
-
-
-- title: "A Rising Tide Lifts All Boats: MTQE Rewards for Idioms Improve General Translation Quality"
-  authors: Ishika Agarwal, Zhenlin He, Dhruva Patil, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2601.06307
-    display: Preprint. 2026.
-  highlight: 1
-
-- title: "Learning User Preferences Through Interaction for Long-Term Collaboration"
-  authors: Shuhaib Mehri, Priyanka Kargupta, Tal August, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2601.02702
     display: Preprint. 2026.
   highlight: 1
 
