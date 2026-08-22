@@ -47,13 +47,6 @@
     display: Preprint. 2026.
   highlight: 1
 
-- title: "MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models"
-  authors: Hyeonjeong Ha, Jeonghwan Kim, Cheng Qian, Jiayu Liu, William M. Campbell, Yue Wu, Yuji Zhang, Kathleen McKeown, Dilek Hakkani-Tur, Heng Ji
-  link:
-    url: https://arxiv.org/abs/2605.28009
-    display: Preprint. 2026.
-  highlight: 1
-
 - title: "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction"
   authors: Vardhan Dongre, Joseph Hsieh, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Dilek Hakkani-Tür
   link:

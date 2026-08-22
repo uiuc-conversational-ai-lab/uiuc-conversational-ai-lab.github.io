@@ -40,6 +40,27 @@
     display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
   highlight: 1
 
+- title: "LongSocialBench: Do Long-Context LLMs Understand Online Discussion Threads?"
+  authors: Xinyi Liu, Rinat Khaziev, Dilek Hakkani-Tür, Tarek F. Abdelzaher
+  link:
+    # url: 
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  highlight: 1
+
+- title: "ConvDeck: Conversational Paper-to-Slide Generation via Stage-Specific User Feedback"
+  authors: Tarik Can Ozden, Sachidanand VS, Furkan Horoz, Ozgur Kara, Dilek Hakkani-Tür, Junho Kim, James Matthew Rehg
+  link:
+    # url: 
+    display: Empirical Methods in Natural Language Processing (EMNLP, Findings). 2026.
+  highlight: 1
+
+- title: "MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models"
+  authors: Hyeonjeong Ha, Jeonghwan Kim, Cheng Qian, Jiayu Liu, William M. Campbell, Yue Wu, Yuji Zhang, Kathleen McKeown, Dilek Hakkani-Tur, Heng Ji
+  link:
+    url: https://arxiv.org/abs/2605.28009
+    display: Empirical Methods in Natural Language Processing (EMNLP, Findings). 2026.
+  highlight: 1
+
 - title: "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data"
   authors: Emre Can Acikgoz, Cheng Qian, Jonas Hübotter, Heng Ji, Dilek Hakkani-Tür, Gokhan Tur
   link:
