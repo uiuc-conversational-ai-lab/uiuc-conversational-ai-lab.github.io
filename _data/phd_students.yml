@@ -63,11 +63,11 @@
   photo: shuhaib.jpg
   has_hobbies: 0
   has_research_interests: 1
-  research_interests: User-Centric Interaction, Continual Learning, User Simulation
+  research_interests: User Simulation, Human-AI Interaction
   webpage: https://shuhaibm.github.io/
   email: mehri2@illinois.edu
   has_past_aff: 1
-  past_aff: IBM Research, Amazon
+  past_aff: Microsoft Research, IBM Research, Amazon
 
 - name: Sumuk Shashidhar
   photo: sumuk-cropped.jpeg
