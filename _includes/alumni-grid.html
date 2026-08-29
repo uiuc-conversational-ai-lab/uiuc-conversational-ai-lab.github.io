@@ -1,0 +1,46 @@
+{% assign alumni_sources = "alumni_postdocs,alumni_members,alumni_msc,alumni_bsc,alumni_visitors" | split: "," %}
+{% assign number_printed = 0 %}
+{% for source in alumni_sources %}
+
+{% case source %}
+  {% when "alumni_postdocs" %}{% assign role = "Postdoc" %}
+  {% when "alumni_members" %}{% assign role = "PhD Student" %}
+  {% when "alumni_msc" %}{% assign role = "Masters Student" %}
+  {% when "alumni_bsc" %}{% assign role = "Undergraduate Student" %}
+  {% when "alumni_visitors" %}{% assign role = "Visiting Scholar" %}
+{% endcase %}
+
+{% assign members = site.data[source] %}
+{% if members and members != empty %}
+{% for member in members %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/convai_members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <h4><a href="{{ member.webpage }}">{{ member.name }}</a></h4>
+  <br>
+  Role: {{ role }}
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}

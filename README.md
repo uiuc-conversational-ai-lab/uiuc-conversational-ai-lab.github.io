@@ -27,7 +27,7 @@ Every workflow below can be completed through GitHub's web editor. When you comm
 ### 2. Add a team member
 
 1. Upload a ~square portrait to `images/convai_members/` (the CSS will crop it into a circle).
-2. Edit the YAML for your role — `_data/faculty.yml`, `postdoc.yml`, `phd_students.yml`, `ms_students.yml`, or `alumni_members.yml`:
+2. Edit the YAML for your role — `_data/faculty.yml`, `postdoc.yml`, `phd_students.yml`, `ms_students.yml`, `visiting_scholars.yml`, or `alumni_members.yml`:
    ```yaml
    - name: Jane Doe
      photo: jane-doe.jpg
@@ -44,6 +44,8 @@ Every workflow below can be completed through GitHub's web editor. When you comm
      has_hobbies: 1
      hobbies: Biking, Photography
    ```
+   For visiting scholars, use `affiliation` for their current institution and role instead of the education fields.
+   Alumni roles are assigned automatically by data file: `alumni_members.yml` (PhD Student), `alumni_postdocs.yml` (Postdoc), `alumni_msc.yml` (Masters Student), `alumni_bsc.yml` (Undergraduate Student), and `alumni_visitors.yml` (Visiting Scholar). Do not add a `role` field to individual alumni profiles.
    Required fields: `name`, `photo`, `webpage`, `email`. Position in YAML = position on the page.
 
 ### 3. Add a project
