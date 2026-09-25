@@ -1,7 +1,14 @@
-- title: "Learning to Persuade Exposes How Easily LLMs Abandon Correct Beliefs"
-  authors: Nimet Beyza Bozdag, Emre Can Acikgoz, Gokhan Tur, Dilek Hakkani-Tür
+- title: "Popular Knowledge Propagates More Errors in LLM Knowledge Updating"
+  authors: Yuji Zhang, Weibing Wang, Cheng Qian, Duo Zhou, Dilek Hakkani-Tür, Kathleen McKeown, Chengxiang Zhai, Heng Ji
   link:
-    url: https://arxiv.org/abs/2608.11624
+    url: https://arxiv.org/abs/2609.08067
+    display: Preprint. 2026.
+  highlight: 1
+
+- title: "Hear2Act: Benchmarking When Prosody Should Change What an Assistant Does"
+  authors: Xinyi Liu, Hooshang Nayyeri, Dilek Hakkani-Tur, Emine Yilmaz, Joo-Kyung Kim, Yifei Zhang, Charith Peris, Hari Thadakamalla
+  link:
+    url: https://arxiv.org/abs/2608.19515
     display: Preprint. 2026.
   highlight: 1
 
@@ -33,13 +40,6 @@
     display: Preprint. 2026.
   highlight: 1
 
-- title: "IMCBench: A benchmark for multimodal LLMs in Image-grounded Medical Conversations"
-  authors: Maria Xenochristou, Ashutosh Joshi, Korosh Vatanparvar, Mohammad Abuzar Hashemi, Prasad Kasu, Deepak Bansal, Anchal Nema, Nivedita Wadhwa, Prashams S Jain, Rebecca Abraham, Will Kimbrough, Dilek Hakkani-Tur, Wilko Schulz-Mahlendorf
-  link:
-    url: https://arxiv.org/abs/2606.28556
-    display: Preprint. 2026.
-  highlight: 1
-
 - title: "Trajectory-Level Redirection Attacks on Vision-Language-Action Models"
   authors: Gokul Puthumanaillam, Vardhan Dongre, Pranay Thangeda, Hooshang Nayyeri, Dilek Hakkani-Tür, Melkior Ornik
   link:
@@ -47,24 +47,10 @@
     display: Preprint. 2026.
   highlight: 1
 
-- title: "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction"
-  authors: Vardhan Dongre, Joseph Hsieh, Viet Dac Lai, Seunghyun Yoon, Trung Bui, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2605.12922
-    display: Preprint. 2026.
-  highlight: 1
-
 - title: "AcquisitionSynthesis: Targeted Data Generation using Acquisition Functions"
   authors: Ishika Agarwal, Sofia Stoica, Emre Can Acikgoz, Pradeep Natarajan, Mahdi Namazifar, Jiaqi Ma, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2605.13149
-    display: Preprint. 2026.
-  highlight: 1
-
-- title: "Measuring and Mitigating the Distributional Gap Between Real and Simulated User Behaviors"
-  authors: Shuhaib Mehri, Philippe Laban, Sumuk Shashidhar, Marwa Abdulhai, Sergey Levine, Michel Galley, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2605.07847
     display: Preprint. 2026.
   highlight: 1
 
