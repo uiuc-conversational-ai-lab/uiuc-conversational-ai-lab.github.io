@@ -30,28 +30,14 @@
   authors: Jinu Lee, Shivam Agarwal, Amruta Parulekar, Siddarth Madala, Dilek Hakkani-Tur, Julia Hockenmaier
   link:
     url: https://arxiv.org/abs/2606.05402
-    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
-  highlight: 1
-
-- title: "Measuring, Localizing, and Ablating Alignment Signatures in LLMs"
-  authors: Aniket Anand, Janvijay Singh, Zhewei Sun, Dilek Hakkani-Tür, Nick Feamster
-  link:
-    url: https://arxiv.org/abs/2605.30526
-    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
-  highlight: 1
-
-- title: "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems"
-  authors: Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, Xiaocheng Yang, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2606.22388
-    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+    display: Empirical Methods in Natural Language Processing (EMNLP, Oral). 2026.
   highlight: 1
 
 - title: "The Alignment Veto: How Safety Training Suppresses Cultural Knowledge in LLMs"
   authors: Pardis Sadat Zahraei, Gokhan Tur, Dilek Hakkani-Tür, Ehsaneddin Asgari
   link:
     url: https://arxiv.org/abs/2510.13154
-    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+    display: Empirical Methods in Natural Language Processing (EMNLP, Oral). 2026.
   highlight: 1
 
 - title: "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues"
@@ -59,6 +45,20 @@
   link:
     url: https://arxiv.org/abs/2607.26178
     display: Empirical Methods in Natural Language Processing (EMNLP, Oral). 2026.
+  highlight: 1
+
+- title: "Measuring, Localizing, and Ablating Alignment Signatures in LLMs"
+  authors: Aniket Anand, Janvijay Singh, Zhewei Sun, Dilek Hakkani-Tür, Nick Feamster
+  link:
+    url: https://arxiv.org/abs/2605.30526
+    display: Empirical Methods in Natural Language Processing (EMNLP, Oral). 2026.
+  highlight: 1
+
+- title: "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems"
+  authors: Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, Xiaocheng Yang, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2606.22388
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
   highlight: 1
 
 - title: "MultiSessionCollab: Learning User Preferences Through Interaction for Long-Term Collaboration"
