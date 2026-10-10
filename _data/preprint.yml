@@ -54,14 +54,6 @@
     display: Preprint. 2026.
   highlight: 1
 
-
-- title: "PSI-Bench: Towards Clinically Grounded and Interpretable Evaluation of Depression Patient Simulators"
-  authors: Nguyen Khoi Hoang, Shuhaib Mehri, Tse-An Hsu, Yi-Jyun Sun, Quynh Xuan Nguyen Truong, Khoa D Doan, Dilek Hakkani-Tür
-  link:
-    url: https://arxiv.org/abs/2604.25840
-    display: Preprint. 2026.
-  highlight: 1
-
 - title: "User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction"
   authors: Yuren Hao, Shuhaib Mehri, ChengXiang Zhai, Dilek Hakkani-Tür
   link:

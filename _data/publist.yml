@@ -1,3 +1,11 @@
+- title: "PSI-Bench: Towards Clinically Grounded and Interpretable Evaluation of Depression Patient Simulators"
+  authors: Nguyen Khoi Hoang, Shuhaib Mehri, Tse-An Hsu, Yi-Jyun Sun, Quynh Xuan Nguyen Truong, Khoa D Doan, Dilek Hakkani-Tür
+  link:
+    url: https://arxiv.org/abs/2604.25840
+    display: Conference on Language Modeling (COLM) Workshop on Social Simulation with LLMs. 2026.
+  badges: [Best Paper Award]
+  highlight: 1
+
 - title: "Learning to Persuade Exposes How Easily LLMs Abandon Correct Beliefs"
   authors: Nimet Beyza Bozdag, Emre Can Acikgoz, Gokhan Tur, Dilek Hakkani-Tür
   link:
@@ -30,28 +38,32 @@
   authors: Jinu Lee, Shivam Agarwal, Amruta Parulekar, Siddarth Madala, Dilek Hakkani-Tur, Julia Hockenmaier
   link:
     url: https://arxiv.org/abs/2606.05402
-    display: Empirical Methods in Natural Language Processing (EMNLP, Oral). 2026.
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  badges: [Oral]
   highlight: 1
 
 - title: "The Alignment Veto: How Safety Training Suppresses Cultural Knowledge in LLMs"
   authors: Pardis Sadat Zahraei, Gokhan Tur, Dilek Hakkani-Tür, Ehsaneddin Asgari
   link:
     url: https://arxiv.org/abs/2510.13154
-    display: Empirical Methods in Natural Language Processing (EMNLP, Oral). 2026.
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  badges: [Oral]
   highlight: 1
 
 - title: "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues"
   authors: Takyoung Kim, Kang-wook Kim, Sang Hoon Woo, Julia Hirschberg, Gunhee Kim, Dilek Hakkani-Tür
   link:
     url: https://arxiv.org/abs/2607.26178
-    display: Empirical Methods in Natural Language Processing (EMNLP, Oral). 2026.
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  badges: [Oral]
   highlight: 1
 
 - title: "Measuring, Localizing, and Ablating Alignment Signatures in LLMs"
   authors: Aniket Anand, Janvijay Singh, Zhewei Sun, Dilek Hakkani-Tür, Nick Feamster
   link:
     url: https://arxiv.org/abs/2605.30526
-    display: Empirical Methods in Natural Language Processing (EMNLP, Oral). 2026.
+    display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
+  badges: [Oral]
   highlight: 1
 
 - title: "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems"
@@ -163,7 +175,8 @@
   authors: Sagnik Mukherjee, Lifan Yuan, Pavan Jayasinha, Dilek Hakkani-Tür, Hao Peng
   link:
     url: https://arxiv.org/abs/2602.07729
-    display: International Conference on Machine Learning (ICML, Oral). 2026.
+    display: International Conference on Machine Learning (ICML). 2026.
+  badges: [Oral]
   highlight: 1
 
 - title: "DialDefer: A Framework for Detecting and Mitigating LLM Dialogic Deference"

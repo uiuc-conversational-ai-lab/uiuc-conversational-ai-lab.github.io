@@ -994,6 +994,28 @@ a:hover, a:focus { color: #13294B; text-decoration: underline; }
     /* no-op — venue sits as plain text; styled via siblings */
 }
 
+/* Badges after the venue (e.g. Oral, Spotlight, Best Paper) — set via `badges:` in _data/publist.yml / preprint.yml */
+.pub-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    vertical-align: 1px;
+    color: #fff;
+    background: #E84A27;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+.pub-badge--spotlight { background: #13294B; }
+.pub-badge--best-paper,
+.pub-badge--outstanding-paper,
+.pub-badge--award { background: #B8860B; }
+
 /* Final "... and more." h3 — plain continuation note, no card */
 .project-list > h3:last-of-type {
     counter-increment: none;
