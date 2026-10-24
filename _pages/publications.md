@@ -77,7 +77,7 @@ permalink: /publications/
 {% assign number = number | plus: 1 %}
 {{ number }}. {% if prepr.link.url %}[**{{ prepr.title }}**]({{ prepr.link.url }}){:target="_blank"}{% else %}**{{ prepr.title }}**{% endif %}<br />
 <em>{{ prepr.authors }}</em><br />
-{{ prepr.link.display }}{% for badge in prepr.badges %} <span class="pub-badge pub-badge--{{ badge | slugify }}">{{ badge }}</span>{% endfor %}
+{{ prepr.link.display }}{% for badge in prepr.link.badges %} <span class="pub-badge pub-badge--{{ badge | slugify }}">{{ badge }}</span>{% endfor %}
 {% endfor %}
 
 ## Accepted
@@ -87,7 +87,7 @@ permalink: /publications/
 {% assign number = number | plus: 1 %}
 {{ number }}. {% if publi.link.url %}[**{{ publi.title }}**]({{ publi.link.url }}){:target="_blank"}{% else %}**{{ publi.title }}**{% endif %}<br />
 <em>{{ publi.authors }}</em><br />
-{{ publi.link.display }}{% for badge in publi.badges %} <span class="pub-badge pub-badge--{{ badge | slugify }}">{{ badge }}</span>{% endfor %}
+{{ publi.link.display }}{% for badge in publi.link.badges %} <span class="pub-badge pub-badge--{{ badge | slugify }}">{{ badge }}</span>{% endfor %}{% if publi.link2 %}<br />{{ publi.link2.display }}{% for badge in publi.link2.badges %} <span class="pub-badge pub-badge--{{ badge | slugify }}">{{ badge }}</span>{% endfor %}{% endif %}
 {% endfor %}
 
 </div>

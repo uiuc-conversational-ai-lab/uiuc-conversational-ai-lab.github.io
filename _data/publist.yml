@@ -3,7 +3,7 @@
   link:
     url: https://arxiv.org/abs/2604.25840
     display: Conference on Language Modeling (COLM) Workshop on Social Simulation with LLMs. 2026.
-  badges: [Best Paper Award]
+    badges: [Best Paper Award]
   highlight: 1
 
 - title: "Learning to Persuade Exposes How Easily LLMs Abandon Correct Beliefs"
@@ -39,7 +39,7 @@
   link:
     url: https://arxiv.org/abs/2606.05402
     display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
-  badges: [Oral]
+    badges: [Oral]
   highlight: 1
 
 - title: "The Alignment Veto: How Safety Training Suppresses Cultural Knowledge in LLMs"
@@ -47,7 +47,7 @@
   link:
     url: https://arxiv.org/abs/2510.13154
     display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
-  badges: [Oral]
+    badges: [Oral]
   highlight: 1
 
 - title: "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues"
@@ -55,7 +55,7 @@
   link:
     url: https://arxiv.org/abs/2607.26178
     display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
-  badges: [Oral]
+    badges: [Oral]
   highlight: 1
 
 - title: "Measuring, Localizing, and Ablating Alignment Signatures in LLMs"
@@ -63,7 +63,7 @@
   link:
     url: https://arxiv.org/abs/2605.30526
     display: Empirical Methods in Natural Language Processing (EMNLP). 2026.
-  badges: [Oral]
+    badges: [Oral]
   highlight: 1
 
 - title: "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems"
@@ -125,8 +125,11 @@
 - title: "Emergent Unfaithfulness: How Alignment Training Causes Language Models to Silently Override Task Faithfulness"
   authors: Pardis Sadat Zahraei, Janvijay Singh, Gokhan Tur, Dilek Hakkani-Tür
   link:
-    # url: 
+    url: https://arxiv.org/abs/2610.00568
     display: Conference on Language Modeling (COLM). 2026.
+  link2:
+    display: Annual Meeting of the Association for Computational Linguistics (ACL) Workshop on Towards Knowledgeable Foundation Models
+    badges: [Outstanding Paper Award]
   highlight: 1
 
 - title: "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems"
@@ -176,7 +179,7 @@
   link:
     url: https://arxiv.org/abs/2602.07729
     display: International Conference on Machine Learning (ICML). 2026.
-  badges: [Oral]
+    badges: [Oral]
   highlight: 1
 
 - title: "DialDefer: A Framework for Detecting and Mitigating LLM Dialogic Deference"
